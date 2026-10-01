@@ -1,1 +1,37 @@
 
+name: Update SEC filings
+
+on:
+  schedule:
+    - cron: "17 11 * * *"   # every day at 11:17 UTC (7:17 AM New York in summer, 6:17 AM in winter)
+  workflow_dispatch:         # adds a "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch filings from SEC EDGAR
+        env:
+          SEC_CONTACT_EMAIL: ${{ secrets.SEC_CONTACT_EMAIL }}
+        run: python scripts/update_filings.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "filings-bot"
+          git config user.email "filings-bot@users.noreply.github.com"
+          git add filings/data/filings.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update SEC filings $(date -u +%Y-%m-%d)"
+            git push
+          fi
