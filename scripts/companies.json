@@ -1,0 +1,20 @@
+{
+  "_help": "Companies tracked on the filings dashboard. Add or remove entries, then commit. 'group' is hyperscaler or neocloud. 'cik' is only needed for companies without a stock ticker yet (pre-IPO); find it on sec.gov/edgar/search.",
+  "companies": [
+    {"ticker": "MSFT",  "name": "Microsoft",       "group": "hyperscaler", "note": "Azure"},
+    {"ticker": "AMZN",  "name": "Amazon",          "group": "hyperscaler", "note": "AWS"},
+    {"ticker": "GOOGL", "name": "Alphabet",        "group": "hyperscaler", "note": "Google Cloud"},
+    {"ticker": "META",  "name": "Meta Platforms",  "group": "hyperscaler", "note": "AI capex"},
+    {"ticker": "ORCL",  "name": "Oracle",          "group": "hyperscaler", "note": "OCI"},
+    {"ticker": "CRWV",  "name": "CoreWeave",       "group": "neocloud", "note": "GPU cloud"},
+    {"ticker": "NBIS",  "name": "Nebius Group",    "group": "neocloud", "note": "GPU cloud, foreign filer (6-K)"},
+    {"ticker": "IREN",  "name": "IREN",            "group": "neocloud", "note": "AI cloud and mining"},
+    {"ticker": "APLD",  "name": "Applied Digital", "group": "neocloud", "note": "HPC data centers"},
+    {"ticker": "CIFR",  "name": "Cipher Mining",   "group": "neocloud", "note": "HPC hosting"},
+    {"ticker": "WULF",  "name": "TeraWulf",        "group": "neocloud", "note": "HPC hosting"},
+    {"ticker": "CORZ",  "name": "Core Scientific", "group": "neocloud", "note": "HPC colocation"},
+    {"ticker": "GLXY",  "name": "Galaxy Digital",  "group": "neocloud", "note": "Helios AI campus"},
+    {"ticker": "HUT",   "name": "Hut 8",           "group": "neocloud", "note": "AI data centers"},
+    {"ticker": "NSCL",  "name": "Nscale",          "group": "neocloud", "note": "Pre-IPO, S-1 filed for NYSE", "cik": "0002110365"}
+  ]
+}

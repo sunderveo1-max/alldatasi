@@ -1,0 +1,35 @@
+/* AllDataSI shared styles */
+:root{
+  color-scheme:light;
+  --bg:#F3F5F6; --panel:#FFFFFF; --ink:#14202B; --muted:#5B6873; --line:#DCE2E6; --soft:#E9EDF0;
+  --accent:#1D4F7A;
+  --c-periodic:#2F6DB5; --c-current:#B87B0B; --c-capital:#B8325A; --c-gov:#6F5AA8; --c-other:#7C8791;
+  --hyper:#1D4F7A; --neo:#0F7A6C;
+  --display:"Archivo","Arial Narrow",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root{
+  color-scheme:dark;--bg:#0E151B;--panel:#151F27;--ink:#E4EAEE;--muted:#93A1AC;--line:#26333D;--soft:#1C2831;
+  --accent:#7FB2E0;--c-periodic:#6FA3E6;--c-current:#E2AE45;--c-capital:#E0678C;--c-gov:#A895E0;--c-other:#8E9AA4;
+  --hyper:#7FB2E0;--neo:#4CC3B0;}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
+img{max-width:100%}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.site-head{border-bottom:1px solid var(--line);background:var(--panel)}
+.site-head .in{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:14px;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px}
+.brand{font-family:var(--display);font-stretch:80%;font-weight:800;font-size:22px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+.brand span{color:var(--accent)}
+.site-nav{display:flex;gap:18px;font-size:14px}
+.site-nav a{color:var(--muted);text-decoration:none}
+.site-nav a:hover,.site-nav a[aria-current="page"]{color:var(--ink)}
+.site-foot{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:28px 40px;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+.site-foot p{margin:0 0 6px;max-width:80ch}
+
+.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:600}
+h1,h2,h3{text-wrap:balance}
