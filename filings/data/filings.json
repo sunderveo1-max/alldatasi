@@ -1,0 +1,764 @@
+{
+ "source": "seed",
+ "generated": "2026-09-25T21:30:00+00:00",
+ "newCount": 0,
+ "newSummary": "",
+ "failures": [],
+ "companies": [
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft",
+   "group": "hyperscaler",
+   "note": "Azure",
+   "insider30d": 39
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "group": "hyperscaler",
+   "note": "AWS",
+   "insider30d": 3
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet",
+   "group": "hyperscaler",
+   "note": "Google Cloud",
+   "insider30d": 22
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms",
+   "group": "hyperscaler",
+   "note": "AI capex",
+   "insider30d": 7
+  },
+  {
+   "ticker": "ORCL",
+   "name": "Oracle",
+   "group": "hyperscaler",
+   "note": "OCI",
+   "insider30d": 12
+  },
+  {
+   "ticker": "CRWV",
+   "name": "CoreWeave",
+   "group": "neocloud",
+   "note": "GPU cloud",
+   "insider30d": 17
+  },
+  {
+   "ticker": "NBIS",
+   "name": "Nebius Group",
+   "group": "neocloud",
+   "note": "GPU cloud \u00b7 foreign filer (6-K)",
+   "insider30d": 12
+  },
+  {
+   "ticker": "IREN",
+   "name": "IREN",
+   "group": "neocloud",
+   "note": "AI cloud + mining",
+   "insider30d": 0
+  },
+  {
+   "ticker": "APLD",
+   "name": "Applied Digital",
+   "group": "neocloud",
+   "note": "HPC data centers",
+   "insider30d": 1
+  },
+  {
+   "ticker": "CIFR",
+   "name": "Cipher Mining",
+   "group": "neocloud",
+   "note": "HPC hosting",
+   "insider30d": 0
+  },
+  {
+   "ticker": "WULF",
+   "name": "TeraWulf",
+   "group": "neocloud",
+   "note": "HPC hosting",
+   "insider30d": 6
+  },
+  {
+   "ticker": "CORZ",
+   "name": "Core Scientific",
+   "group": "neocloud",
+   "note": "HPC colocation",
+   "insider30d": 6
+  },
+  {
+   "ticker": "GLXY",
+   "name": "Galaxy Digital",
+   "group": "neocloud",
+   "note": "Helios AI campus",
+   "insider30d": 3
+  },
+  {
+   "ticker": "HUT",
+   "name": "Hut 8",
+   "group": "neocloud",
+   "note": "AI data centers",
+   "insider30d": 0
+  },
+  {
+   "ticker": "NSCL",
+   "name": "Nscale",
+   "group": "neocloud",
+   "note": "Pre-IPO \u00b7 S-1 filed, NYSE pending",
+   "insider30d": null
+  }
+ ],
+ "filings": [
+  {
+   "ticker": "ORCL",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-09-25",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORCL&type=DEF+14A&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "e280466a-305e-437e-aa81-bb322682d850"
+  },
+  {
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-25",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CIFR&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "e867e062-dfa7-4513-8e21-07c454f89a67"
+  },
+  {
+   "ticker": "APLD",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-09-25",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=APLD&type=DEF+14A&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "2a4b52ec-669b-4ac1-975b-3a931a8f2208"
+  },
+  {
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-23",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "f74cd213-2d14-4215-ba32-37e36cfc8586"
+  },
+  {
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-22",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "dcee1701-42fe-452b-857f-9352db31ffb8"
+  },
+  {
+   "ticker": "NSCL",
+   "form": "S-1",
+   "desc": "IPO registration statement (NYSE: NSCL)",
+   "date": "2026-09-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/0002110365/000119312526395475/ck0002110365-20260918.htm",
+   "addedOn": "",
+   "id": "nscl-s1-20260918"
+  },
+  {
+   "ticker": "CRWV",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-09-17",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=424B5&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "836e2784-8a97-4aa3-8f52-711d58f5f1c2"
+  },
+  {
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-17",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "058e774d-f169-4141-9b76-5a891d804860"
+  },
+  {
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-14",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORCL&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "5e96d0b8-2d0d-495e-9688-1122cc2b9d7a"
+  },
+  {
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-14",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "1426fe17-e692-45bf-802c-ff18c3e523bc"
+  },
+  {
+   "ticker": "ORCL",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-09-11",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORCL&type=10-Q&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "f85a6841-8d73-4e2c-ab94-61ca6783d355"
+  },
+  {
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-09-11",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=424B5&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "480d922e-811b-4d73-a5ac-58f1e8495a7a"
+  },
+  {
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-10",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORCL&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "88f04a8f-e190-4c64-b8ea-84bc0a309afe"
+  },
+  {
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-10",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "d76b44c8-696d-49d1-80d7-deed9212b449"
+  },
+  {
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-09-09",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=424B5&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "d5218434-6136-4844-8b63-5ef009ccfc02"
+  },
+  {
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-09",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "8d1f0f13-225b-4ee5-870a-9bf6c6b63783"
+  },
+  {
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-09-08",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "4898211f-e43d-44c1-9984-5524bb8cc25f"
+  },
+  {
+   "ticker": "MSFT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-02",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "ed8e2422-ca7a-4c49-ab41-4db1223f3976"
+  },
+  {
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-27",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "a783ca6f-bf8c-420b-ba0f-936fcc0d4987"
+  },
+  {
+   "ticker": "IREN",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-08-27",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=10-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "f13cc08c-88d1-4826-8b3c-de24935d3f8e"
+  },
+  {
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-27",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "acbb0988-a0bc-45f5-9fba-f59a36976a81"
+  },
+  {
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-08-26",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "77e62ed2-6d78-4669-a21d-8f03202a51ea"
+  },
+  {
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-08-24",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "7378a24b-624f-44ea-b863-8bb4c61e5f61"
+  },
+  {
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-08-20",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "9b55c7d4-fdd5-432e-9c24-004ed3c7e15b"
+  },
+  {
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-08-19",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "86fd4219-683e-4038-8d42-3c622ace7eef"
+  },
+  {
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-14",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "6204c1ca-0b8e-4afa-8f02-341d68231818"
+  },
+  {
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-13",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "bb624b7e-6755-456d-b6db-a50356f7bc70"
+  },
+  {
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-08-12",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "e9712ca3-02e3-41f1-b64e-2f4981251730"
+  },
+  {
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-08-12",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "7cc9e753-91b4-4e64-9f17-21413c48d616"
+  },
+  {
+   "ticker": "CRWV",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-08-11",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=10-Q&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "a8fa482c-03f6-44a4-85d0-23a1db4eb4d7"
+  },
+  {
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-11",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "dfecea7f-270d-4d81-8eee-2c7f76b2e667"
+  },
+  {
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-10",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "33e8e61c-b953-452a-94bf-b6c19cf9c1d9"
+  },
+  {
+   "ticker": "GLXY",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-08-10",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=10-Q&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "c51b09f9-2ab8-4273-9726-c89bb2b90e83"
+  },
+  {
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-10",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "479f4eb2-ac0b-4cb5-a759-57c8ae6eebd2"
+  },
+  {
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-08-06",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL&type=424B5&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "c1deff23-791c-424e-abcd-bd7f98373e1a"
+  },
+  {
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-08-06",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL&type=424B5&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "e3573e85-39a4-4b9e-85be-4422e2a99b2a"
+  },
+  {
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-05",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WULF&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "a48ec76f-7577-4a9c-81e7-c77b440d29c0"
+  },
+  {
+   "ticker": "WULF",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-08-05",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WULF&type=10-Q&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "5ccac427-125c-484f-be64-0353990afc31"
+  },
+  {
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-05",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "2b6b37cb-10b4-4b4f-b31f-85d79819804f"
+  },
+  {
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-05",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "838be653-f9da-4194-96a0-1fd25b6a77d0"
+  },
+  {
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-04",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "7292563d-8658-4c1f-8c9c-0a7396195737"
+  },
+  {
+   "ticker": "HUT",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-08-04",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HUT&type=10-Q&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "757f6ba7-2809-4ae1-b579-f48330e9bbcf"
+  },
+  {
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-04",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HUT&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "7d9bd90e-6211-4c8e-8b04-07e821cfdd9d"
+  },
+  {
+   "ticker": "CIFR",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-08-04",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CIFR&type=10-Q&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "3153b81e-c062-43f0-9f1e-7ec79fbd6585"
+  },
+  {
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-04",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CIFR&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "5aac32fa-02e6-46f1-91f4-4116d7333e66"
+  },
+  {
+   "ticker": "AMZN",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-07-30",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=10-Q&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "ebef9fdf-d5f5-49b7-8939-3d32775ec12b"
+  },
+  {
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-30",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "b56930db-db6f-4891-9006-adebb53848a9"
+  },
+  {
+   "ticker": "MSFT",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-07-29",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=10-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "09941627-7a45-4935-9a3b-963da1ea009a"
+  },
+  {
+   "ticker": "MSFT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-29",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "65bf974b-5340-4978-97b0-221e5ab41113"
+  },
+  {
+   "ticker": "META",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-07-29",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=META&type=10-Q&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "d4d675d5-7077-4522-98d2-1301adf67bdc"
+  },
+  {
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-29",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=META&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "cebf062c-ee90-4484-b45d-da481c2ebd7f"
+  },
+  {
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-29",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "3154dc7b-2269-47e1-ab9f-57a59023274b"
+  },
+  {
+   "ticker": "APLD",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-07-29",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=APLD&type=10-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "6d5ddd0f-4bcf-4704-86c6-51f456d6323d"
+  },
+  {
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-28",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "03c5a185-05d0-4396-b4fc-ec3cbc4bb4ef"
+  },
+  {
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-28",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "868975ba-b33b-4848-9bf1-da56ce2f663f"
+  },
+  {
+   "ticker": "CORZ",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-07-28",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=10-Q&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "8d3d093f-8503-41c7-a68e-85b0ccee5c32"
+  },
+  {
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-28",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "c8a64bc8-ab89-4126-a51d-a03880fae7ff"
+  },
+  {
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-07-27",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "9ca12bdf-b6db-43ab-8445-6e30546b8489"
+  },
+  {
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-24",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "71d2bbf1-2ce5-432e-932e-22e250caaf39"
+  },
+  {
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-22",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "d28124ce-643d-466c-9d85-5f809fce66df"
+  },
+  {
+   "ticker": "GOOGL",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-07-22",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL&type=10-Q&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "fc8c4fc6-6d1e-4396-8b8f-1bee271cfab5"
+  },
+  {
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-22",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "6722026e-dc3f-4331-a900-dbb1d48bbf37"
+  },
+  {
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-20",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "7a680531-1b87-464d-b964-035a071eba64"
+  },
+  {
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-20",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HUT&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "1ebd875d-9ba0-49a6-8d2e-87ff178bb262"
+  },
+  {
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-07-17",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "7d0b1677-e281-4118-ae7e-1d3ac1531b75"
+  },
+  {
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-13",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "67330b3c-4935-4690-a334-d3920ce2c75e"
+  },
+  {
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-09",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "1b02aefb-0ff2-4208-a190-55fdd94af5a5"
+  },
+  {
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-07-08",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=424B5&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "646c5ed9-4763-4d47-8869-b274644d4001"
+  },
+  {
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-07-07",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=424B5&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "a7729070-ee4b-4aea-9eec-b3040d5119a3"
+  },
+  {
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-06",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WULF&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "486fd3ef-2180-4905-a32d-eb2dfe2332be"
+  },
+  {
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-01",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "384a9c3e-7109-4df4-af68-0526f01bf29d"
+  },
+  {
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-26",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=APLD&type=8-K&dateb=&owner=include&count=40",
+   "addedOn": "",
+   "id": "a000aa85-1d0d-46f5-a9ec-c61804ddd84c"
+  }
+ ]
+}

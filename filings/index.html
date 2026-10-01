@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Cloud Filings Desk · AllDataSI</title>
+<meta name="description" content="Daily SEC filing tracker for the hyperscalers (Microsoft, Amazon, Alphabet, Meta, Oracle) and the listed neoclouds (CoreWeave, Nebius, IREN and peers).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/site.css">
+<style>
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:28px 48px;display:grid;gap:22px}
+header.page{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px}
+h1{font-family:var(--display);font-stretch:80%;font-weight:800;font-size:clamp(28px,4.4vw,40px);line-height:1;margin:0;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:6px 0 0;max-width:62ch}
+.status{font-family:var(--mono);font-size:12px;color:var(--muted);display:flex;align-items:center;gap:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--neo);flex:none}
+.dot.stale{background:var(--c-current)}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.kpi{background:var(--panel);padding:14px 16px;display:grid;gap:2px}
+.kpi .lab{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.kpi .val{font-family:var(--display);font-stretch:85%;font-weight:700;font-size:30px;line-height:1.1;font-variant-numeric:tabular-nums}
+.kpi .hint{font-size:12px;color:var(--muted)}
+@media (max-width:720px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+section.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:18px 18px 16px;display:grid;gap:12px;min-width:0}
+.ph{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 20px}
+h2{font-family:var(--display);font-stretch:85%;font-weight:700;font-size:19px;margin:0}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:10px;height:10px;border-radius:2px;display:inline-block}
+.scroll{overflow-x:auto}
+svg text{font-family:var(--mono);font-size:11px;fill:var(--muted)}
+svg .tk{font-family:var(--body);font-weight:600;font-size:12px;fill:var(--ink)}
+svg .grp{font-family:var(--body);font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:600}
+svg .mark{cursor:pointer}
+svg .mark:hover,svg .mark:focus{stroke:var(--ink);stroke-width:2;outline:none}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font:12px/1.4 var(--mono);padding:6px 8px;border-radius:4px;z-index:5;max-width:260px;white-space:pre-line}
+.controls{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:5px;overflow:hidden}
+.seg button{font:500 12px var(--body);color:var(--muted);background:var(--panel);border:0;padding:6px 11px;cursor:pointer;border-right:1px solid var(--line)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--panel)}
+input[type=search],select{font:13px var(--body);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:6px 10px}
+input[type=search]{min-width:0;flex:1 1 160px;max-width:260px}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);text-align:left;font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:9px 10px;border-bottom:1px solid var(--soft);vertical-align:middle}
+tr:hover td{background:var(--soft)}
+td.date{font-family:var(--mono);font-size:12px;white-space:nowrap;color:var(--muted)}
+.tick{font-weight:600}
+.co{color:var(--muted);font-size:12px}
+.form{font-family:var(--mono);font-size:12px;font-weight:500;padding:2px 7px;border-radius:3px;white-space:nowrap;border:1px solid currentColor}
+.grp-pill{font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+.new{font-family:var(--mono);font-size:10px;color:var(--neo);border:1px solid var(--neo);border-radius:3px;padding:0 4px;margin-left:6px}
+td a{white-space:nowrap}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.card{border:1px solid var(--line);border-radius:5px;padding:10px 12px;display:grid;gap:4px;background:var(--panel)}
+.card .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.card .t{font-family:var(--display);font-stretch:85%;font-weight:700;font-size:17px}
+.card .meta{font-size:12px;color:var(--muted)}
+.card .row{display:flex;justify-content:space-between;gap:8px;font-size:12px;font-family:var(--mono);color:var(--muted)}
+.card .row b{color:var(--ink);font-weight:500}
+.empty{color:var(--muted);padding:18px 4px}
+</style>
+</head>
+<body>
+<header class="site-head"><div class="in">
+  <a class="brand" href="../">AllData<span>SI</span></a>
+  <nav class="site-nav"><a href="../">Writing</a><a href="./" aria-current="page">Filings Desk</a></nav>
+</div></header>
+
+<main class="wrap">
+  <header class="page">
+    <div>
+      <h1>AI Cloud Filings Desk</h1>
+      <p class="sub">SEC filings from the five hyperscalers and the listed neoclouds, refreshed every morning from EDGAR. Insider Form 4s are counted, not listed.</p>
+    </div>
+    <div class="status"><span class="dot" id="statusDot"></span><span id="statusText">Loading filings…</span></div>
+  </header>
+
+  <div class="kpis">
+    <div class="kpi"><span class="lab">Filed last 7 days</span><span class="val" id="k7">–</span><span class="hint" id="k7h">&nbsp;</span></div>
+    <div class="kpi"><span class="lab">Current reports, 30d</span><span class="val" id="k8k">–</span><span class="hint">8-K and 6-K</span></div>
+    <div class="kpi"><span class="lab">Capital raises, 90d</span><span class="val" id="kcap">–</span><span class="hint" id="kcaph">424B / S-1 / S-3</span></div>
+    <div class="kpi"><span class="lab">Insider Form 4s, 30d</span><span class="val" id="kins">–</span><span class="hint" id="kinsh">&nbsp;</span></div>
+  </div>
+
+  <section class="panel" aria-labelledby="tapeH">
+    <div class="ph"><h2 id="tapeH">Filing tape, last 90 days</h2><div class="legend" id="legend"></div></div>
+    <div class="scroll"><svg id="tape" role="img" aria-label="Dot timeline of filings by company"></svg></div>
+  </section>
+
+  <section class="panel" aria-labelledby="feedH">
+    <div class="ph">
+      <h2 id="feedH">Filing feed</h2>
+      <div class="controls">
+        <div class="seg" role="group" aria-label="Company group">
+          <button id="g-all" data-g="all" aria-pressed="true">All</button>
+          <button id="g-hyper" data-g="hyperscaler" aria-pressed="false">Hyperscalers</button>
+          <button id="g-neo" data-g="neocloud" aria-pressed="false">Neoclouds</button>
+        </div>
+        <select id="catSel" aria-label="Filing type">
+          <option value="all">All filing types</option>
+          <option value="periodic">Periodic (10-K, 10-Q)</option>
+          <option value="current">Current (8-K, 6-K)</option>
+          <option value="capital">Capital raise</option>
+          <option value="gov">Proxy &amp; ownership</option>
+        </select>
+        <input type="search" id="q" placeholder="Ticker or company" aria-label="Filter by ticker or company">
+      </div>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Filed</th><th>Company</th><th>Group</th><th>Form</th><th>What it is</th><th></th></tr></thead>
+        <tbody id="rows"><tr><td colspan="6" class="empty">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="coH">
+    <div class="ph"><h2 id="coH">Coverage</h2><span class="co" id="coCount"></span></div>
+    <div class="cards" id="cards"></div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <p>Source: SEC EDGAR, updated daily. Filings older than a year drop off. Nscale (NSCL) is tracked from its S-1 until it lists.</p>
+  <p>For information only. Nothing here is investment advice.</p>
+</footer>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const CAT = f => /^(10-K|10-Q|20-F|40-F)/.test(f) ? "periodic" : /^(8-K|6-K)/.test(f) ? "current" :
+  /^(424B|S-1|S-3|F-1|F-3)/.test(f) ? "capital" : /^(DEF|DEFA|SC 13|SCHEDULE 13)/.test(f) ? "gov" : "other";
+const CATLAB = {periodic:"Periodic",current:"Current report",capital:"Capital raise",gov:"Proxy / ownership",other:"Other"};
+const state = {companies:{}, filings:[], meta:null, group:"all", cat:"all", q:""};
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const day = s => new Date(s + "T12:00:00");
+const today = () => { const d = new Date(); d.setHours(12,0,0,0); return d; };
+const daysAgo = s => Math.round((today() - day(s)) / 864e5);
+const fmt = s => day(s).toLocaleDateString("en-US",{month:"short",day:"numeric"});
+const grpColor = g => g === "hyperscaler" ? "hyper" : "neo";
+const grpName = g => g === "hyperscaler" ? "Hyperscaler" : "Neocloud";
+
+$("legend").innerHTML = ["periodic","current","capital","gov"].map(c =>
+  `<span><i class="sw" style="background:var(--c-${c})"></i>${CATLAB[c]}</span>`).join("");
+
+function render(){
+  const F = state.filings, C = state.companies;
+  const in7 = F.filter(f => daysAgo(f.date) <= 7);
+  $("k7").textContent = in7.length;
+  const t7 = [...new Set(in7.map(f => f.ticker))];
+  $("k7h").textContent = t7.length ? t7.slice(0,5).join(", ") + (t7.length > 5 ? " …" : "") : "Quiet week";
+  $("k8k").textContent = F.filter(f => daysAgo(f.date) <= 30 && CAT(f.form) === "current").length;
+  const cap = F.filter(f => daysAgo(f.date) <= 90 && CAT(f.form) === "capital");
+  $("kcap").textContent = cap.length;
+  const capT = [...new Set(cap.map(f => f.ticker))];
+  $("kcaph").textContent = capT.length ? capT.join(", ") : "424B / S-1 / S-3";
+  const ins = Object.values(C).filter(c => typeof c.insider30d === "number");
+  $("kins").textContent = ins.reduce((a,c) => a + c.insider30d, 0);
+  const top = [...ins].sort((a,b) => b.insider30d - a.insider30d)[0];
+  $("kinsh").textContent = top ? `Most: ${top.ticker} (${top.insider30d})` : "";
+  if (state.meta && state.meta.generated){
+    const lr = new Date(state.meta.generated);
+    const hrs = (Date.now() - lr) / 36e5;
+    $("statusDot").className = "dot" + (hrs > 36 ? " stale" : "");
+    $("statusText").textContent = "Updated " + lr.toLocaleString("en-US",{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}) +
+      (state.meta.newCount ? ` · ${state.meta.newCount} new` : "");
+  }
+  drawTape(); drawRows(); drawCards();
+}
+
+function orderedCompanies(){
+  const all = Object.values(state.companies);
+  const byG = g => all.filter(c => c.group === g).sort((a,b) => a.ticker.localeCompare(b.ticker));
+  return [["hyperscaler", byG("hyperscaler")], ["neocloud", byG("neocloud")]];
+}
+
+function drawTape(){
+  const svg = $("tape"), groups = orderedCompanies();
+  const W = 960, L = 74, R = 16, T = 24, rowH = 22, gapG = 22;
+  const nRows = groups.reduce((a,[,cs]) => a + cs.length, 0);
+  const H = T + nRows * rowH + gapG * groups.length + 8;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.style.width = "100%"; svg.style.minWidth = "680px";
+  const end = today(), start = new Date(end - 90 * 864e5);
+  const x = d => L + (d - start) / (end - start) * (W - L - R);
+  let out = "";
+  for (let m = new Date(start.getFullYear(), start.getMonth() + 1, 1); m <= end; m.setMonth(m.getMonth() + 1)){
+    const xx = x(m);
+    out += `<line x1="${xx}" x2="${xx}" y1="${T - 6}" y2="${H - 4}" stroke="var(--line)" />`;
+    if (xx < W - R - 70) out += `<text x="${xx + 4}" y="${T - 10}">${m.toLocaleDateString("en-US",{month:"short"})} 1</text>`;
+  }
+  out += `<text x="${W - R}" y="${T - 10}" text-anchor="end" style="fill:var(--ink)">today</text>`;
+  let y = T;
+  const byT = {};
+  state.filings.forEach(f => (byT[f.ticker] ||= []).push(f));
+  for (const [g, cs] of groups){
+    y += gapG - 6;
+    out += `<text class="grp" x="0" y="${y - 4}" style="fill:var(--${grpColor(g)})">${g === "hyperscaler" ? "Hyperscalers" : "Neoclouds"}</text>`;
+    for (const c of cs){
+      const cy = y + rowH / 2;
+      out += `<line x1="${L}" x2="${W - R}" y1="${cy}" y2="${cy}" stroke="var(--soft)" />`;
+      out += `<text class="tk" x="0" y="${cy + 4}">${esc(c.ticker)}</text>`;
+      (byT[c.ticker] || []).filter(f => day(f.date) >= start).forEach(f => {
+        const k = CAT(f.form);
+        out += `<circle class="mark" tabindex="0" cx="${x(day(f.date)).toFixed(1)}" cy="${cy}" r="${k === "capital" || k === "periodic" ? 6 : 4.5}" fill="var(--c-${k})" fill-opacity=".9" data-tip="${esc(c.ticker)} · ${esc(f.form)} · ${fmt(f.date)}|${esc(f.desc)}" data-url="${esc(f.url)}"></circle>`;
+      });
+      y += rowH;
+    }
+  }
+  svg.innerHTML = out;
+}
+
+function drawRows(){
+  const C = state.companies, q = state.q.trim().toLowerCase();
+  const rows = state.filings.filter(f => {
+    const c = C[f.ticker] || {};
+    if (state.group !== "all" && c.group !== state.group) return false;
+    if (state.cat !== "all" && CAT(f.form) !== state.cat) return false;
+    if (q && !(f.ticker.toLowerCase().includes(q) || (c.name || "").toLowerCase().includes(q))) return false;
+    return true;
+  }).sort((a,b) => b.date.localeCompare(a.date) || a.ticker.localeCompare(b.ticker));
+  $("rows").innerHTML = rows.length ? rows.map(f => {
+    const c = C[f.ticker] || {}, k = CAT(f.form);
+    const isNew = f.addedOn && daysAgo(f.addedOn) <= 1;
+    return `<tr><td class="date">${esc(f.date)}</td>
+      <td><span class="tick">${esc(f.ticker)}</span> <span class="co">${esc(c.name || "")}</span>${isNew ? '<span class="new">NEW</span>' : ""}</td>
+      <td><span class="grp-pill" style="color:var(--${grpColor(c.group)})">${grpName(c.group)}</span></td>
+      <td><span class="form" style="color:var(--c-${k})">${esc(f.form)}</span></td>
+      <td>${esc(f.desc)}</td>
+      <td><a href="${esc(f.url)}" target="_blank" rel="noopener">EDGAR ↗</a></td></tr>`;
+  }).join("") : `<tr><td colspan="6" class="empty">No filings match these filters.</td></tr>`;
+}
+
+function drawCards(){
+  const byT = {};
+  state.filings.forEach(f => (byT[f.ticker] ||= []).push(f));
+  const list = orderedCompanies().flatMap(([,cs]) => cs);
+  $("coCount").textContent = `${list.length} companies`;
+  $("cards").innerHTML = list.map(c => {
+    const fs = (byT[c.ticker] || []).slice().sort((a,b) => b.date.localeCompare(a.date));
+    const last = fs[0], lastP = fs.find(f => CAT(f.form) === "periodic");
+    return `<div class="card"><div class="top"><span class="t">${esc(c.ticker)}</span>
+      <span class="grp-pill" style="color:var(--${grpColor(c.group)})">${grpName(c.group)}</span></div>
+      <div class="meta">${esc(c.name)} · ${esc(c.note || "")}</div>
+      <div class="row"><span>Latest</span><b>${last ? esc(last.form) + " · " + fmt(last.date) : "—"}</b></div>
+      <div class="row"><span>Last 10-K/10-Q</span><b>${lastP ? esc(lastP.form) + " · " + fmt(lastP.date) : "—"}</b></div>
+      <div class="row"><span>Form 4s, 30d</span><b>${typeof c.insider30d === "number" ? c.insider30d : "n/a"}</b></div></div>`;
+  }).join("");
+}
+
+document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".seg button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  state.group = b.dataset.g; drawRows();
+}));
+$("catSel").addEventListener("change", e => { state.cat = e.target.value; drawRows(); });
+$("q").addEventListener("input", e => { state.q = e.target.value; drawRows(); });
+const tip = $("tip"), tape = $("tape");
+tape.addEventListener("mousemove", e => {
+  const m = e.target.closest(".mark");
+  if (!m){ tip.hidden = true; return; }
+  tip.textContent = m.dataset.tip.replace("|", "\n");
+  tip.hidden = false;
+  tip.style.left = Math.min(e.clientX + 12, innerWidth - 270) + "px";
+  tip.style.top = (e.clientY + 12) + "px";
+});
+tape.addEventListener("mouseleave", () => tip.hidden = true);
+const openMark = m => window.open(m.dataset.url, "_blank", "noopener");
+tape.addEventListener("click", e => { const m = e.target.closest(".mark"); if (m) openMark(m); });
+tape.addEventListener("keydown", e => { const m = e.target.closest(".mark"); if (m && e.key === "Enter") openMark(m); });
+
+fetch("data/filings.json", {cache: "no-cache"})
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => {
+    state.meta = d;
+    d.companies.forEach(c => state.companies[c.ticker] = c);
+    state.filings = d.filings;
+    render();
+  })
+  .catch(() => {
+    $("statusText").textContent = "Couldn't load filings. Refresh the page to try again.";
+    $("rows").innerHTML = `<tr><td colspan="6" class="empty">The filing data didn't load.</td></tr>`;
+  });
+</script>
+</body>
+</html>
