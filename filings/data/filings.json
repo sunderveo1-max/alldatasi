@@ -1,6 +1,6 @@
 {
- "source": "seed",
- "generated": "2026-09-25T21:30:00+00:00",
+ "source": "edgar",
+ "generated": "2026-10-02T16:38:59+00:00",
  "newCount": 0,
  "newSummary": "",
  "failures": [],
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 39
+   "insider30d": 32
   },
   {
    "ticker": "AMZN",
@@ -24,41 +24,41 @@
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 22
+   "insider30d": 21
   },
   {
    "ticker": "META",
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 7
+   "insider30d": 9
   },
   {
    "ticker": "ORCL",
    "name": "Oracle",
    "group": "hyperscaler",
    "note": "OCI",
-   "insider30d": 12
+   "insider30d": 13
   },
   {
    "ticker": "CRWV",
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 17
+   "insider30d": 13
   },
   {
    "ticker": "NBIS",
    "name": "Nebius Group",
    "group": "neocloud",
-   "note": "GPU cloud \u00b7 foreign filer (6-K)",
-   "insider30d": 12
+   "note": "GPU cloud, foreign filer (6-K)",
+   "insider30d": 13
   },
   {
    "ticker": "IREN",
    "name": "IREN",
    "group": "neocloud",
-   "note": "AI cloud + mining",
+   "note": "AI cloud and mining",
    "insider30d": 0
   },
   {
@@ -73,14 +73,14 @@
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 0
+   "insider30d": 1
   },
   {
    "ticker": "WULF",
    "name": "TeraWulf",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 6
+   "insider30d": 5
   },
   {
    "ticker": "CORZ",
@@ -101,664 +101,5479 @@
    "name": "Hut 8",
    "group": "neocloud",
    "note": "AI data centers",
-   "insider30d": 0
+   "insider30d": 2
   },
   {
    "ticker": "NSCL",
    "name": "Nscale",
    "group": "neocloud",
-   "note": "Pre-IPO \u00b7 S-1 filed, NYSE pending",
-   "insider30d": null
+   "note": "Pre-IPO, S-1 filed for NYSE",
+   "insider30d": 0
   }
  ],
  "filings": [
   {
+   "id": "0001104659-26-112824",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-10-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926112824/tm2626792d1_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-112411",
+   "ticker": "IREN",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000110465926112411/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-112495",
+   "ticker": "HUT",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926112495/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-111154",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926111154/tm2625691d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-402852",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000119312526402852/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-402831",
+   "ticker": "ORCL",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402831/orcl-defa14a-2026_notice.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-402816",
    "ticker": "ORCL",
    "form": "DEF 14A",
    "desc": "Definitive proxy statement",
    "date": "2026-09-25",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORCL&type=DEF+14A&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "e280466a-305e-437e-aa81-bb322682d850"
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001819989-26-000043",
    "ticker": "CIFR",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-09-25",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CIFR&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "e867e062-dfa7-4513-8e21-07c454f89a67"
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000043/cifr-20260924.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001493152-26-044328",
+   "ticker": "APLD",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-09-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226044328/formdefa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-044325",
    "ticker": "APLD",
    "form": "DEF 14A",
    "desc": "Definitive proxy statement",
    "date": "2026-09-25",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=APLD&type=DEF+14A&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "2a4b52ec-669b-4ac1-975b-3a931a8f2208"
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226044325/formdef14a.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001859392-26-000105",
    "ticker": "GLXY",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-09-23",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "f74cd213-2d14-4215-ba32-37e36cfc8586"
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000105/glxy-20260922.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001769628-26-000432",
    "ticker": "CRWV",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-09-22",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "dcee1701-42fe-452b-857f-9352db31ffb8"
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001193125-26-395475",
    "ticker": "NSCL",
    "form": "S-1",
-   "desc": "IPO registration statement (NYSE: NSCL)",
+   "desc": "IPO registration statement",
    "date": "2026-09-18",
-   "url": "https://www.sec.gov/Archives/edgar/data/0002110365/000119312526395475/ck0002110365-20260918.htm",
-   "addedOn": "",
-   "id": "nscl-s1-20260918"
+   "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001769628-26-000429",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-09-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv-20260917.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-062362",
    "ticker": "CRWV",
    "form": "424B5",
    "desc": "Prospectus (securities offering)",
    "date": "2026-09-17",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=424B5&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "836e2784-8a97-4aa3-8f52-711d58f5f1c2"
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000162828026062362/coreweave-424b5.htm",
+   "addedOn": ""
   },
   {
-   "ticker": "CRWV",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2026-09-17",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "058e774d-f169-4141-9b76-5a891d804860"
-  },
-  {
+   "id": "0001193125-26-389753",
    "ticker": "ORCL",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-09-14",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORCL&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "5e96d0b8-2d0d-495e-9688-1122cc2b9d7a"
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389753/d20034d8k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-107526",
    "ticker": "AMZN",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-09-14",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "1426fe17-e692-45bf-802c-ff18c3e523bc"
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/tm2624614d5_8k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001193125-26-389274",
    "ticker": "ORCL",
    "form": "10-Q",
    "desc": "Quarterly report",
    "date": "2026-09-11",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORCL&type=10-Q&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "f85a6841-8d73-4e2c-ab94-61ca6783d355"
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-107122",
    "ticker": "AMZN",
    "form": "424B5",
    "desc": "Prospectus (securities offering)",
    "date": "2026-09-11",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=424B5&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "480d922e-811b-4d73-a5ac-58f1e8495a7a"
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107122/tm2624614-3_424b5.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001193125-26-387905",
    "ticker": "ORCL",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-09-10",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORCL&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "88f04a8f-e190-4c64-b8ea-84bc0a309afe"
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-20260910.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001839341-26-000023",
    "ticker": "CORZ",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-09-10",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "d76b44c8-696d-49d1-80d7-deed9212b449"
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000023/core-20260910.htm",
+   "addedOn": ""
   },
   {
-   "ticker": "AMZN",
-   "form": "424B5",
-   "desc": "Prospectus (securities offering)",
-   "date": "2026-09-09",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=424B5&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "d5218434-6136-4844-8b63-5ef009ccfc02"
-  },
-  {
+   "id": "0001018724-26-000036",
    "ticker": "AMZN",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-09-09",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "8d1f0f13-225b-4ee5-870a-9bf6c6b63783"
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-106115",
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-09-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926106115/tm2624614-1_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-105749",
    "ticker": "NBIS",
    "form": "6-K",
    "desc": "Current report of foreign issuer",
    "date": "2026-09-08",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "4898211f-e43d-44c1-9984-5524bb8cc25f"
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926105749/tm2624958d1_6k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001193125-26-380280",
    "ticker": "MSFT",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-09-02",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "ed8e2422-ca7a-4c49-ab41-4db1223f3976"
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm",
+   "addedOn": ""
   },
   {
-   "ticker": "IREN",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2026-08-27",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "a783ca6f-bf8c-420b-ba0f-936fcc0d4987"
-  },
-  {
+   "id": "0001878848-26-000052",
    "ticker": "IREN",
    "form": "10-K",
    "desc": "Annual report",
    "date": "2026-08-27",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=10-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "f13cc08c-88d1-4826-8b3c-de24935d3f8e"
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001878848-26-000051",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/iren-20260827.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001839341-26-000021",
    "ticker": "CORZ",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-08-27",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "acbb0988-a0bc-45f5-9fba-f59a36976a81"
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000021/core-20260825.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-101076",
    "ticker": "NBIS",
    "form": "6-K",
    "desc": "Current report of foreign issuer",
    "date": "2026-08-26",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "77e62ed2-6d78-4669-a21d-8f03202a51ea"
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926101076/tm2624077d1_6k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-100347",
    "ticker": "NBIS",
    "form": "6-K",
    "desc": "Current report of foreign issuer",
    "date": "2026-08-24",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "7378a24b-624f-44ea-b863-8bb4c61e5f61"
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926100347/tm2623863d1_6k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-098924",
    "ticker": "NBIS",
    "form": "6-K",
    "desc": "Current report of foreign issuer",
    "date": "2026-08-20",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "9b55c7d4-fdd5-432e-9c24-004ed3c7e15b"
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926098924/tm2623617d1_6k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-098590",
    "ticker": "NBIS",
    "form": "6-K",
    "desc": "Current report of foreign issuer",
    "date": "2026-08-19",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "86fd4219-683e-4038-8d42-3c622ace7eef"
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926098590/tm2623513d1_6k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-098339",
+   "ticker": "AMZN",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-08-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926098339/tm2617924-6_424b3.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0002058037-26-000011",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000205803726000011/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002058103-26-000018",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000205810326000018/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002058067-26-000014",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000205806726000014/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000919574-26-005527",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000091957426005527/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001172661-26-003744",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000117266126003744/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000935836-26-000406",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000093583626000406/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001839341-26-000018",
    "ticker": "CORZ",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-08-14",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "6204c1ca-0b8e-4afa-8f02-341d68231818"
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000018/core-20260813.htm",
+   "addedOn": ""
   },
   {
+   "id": "0000895421-26-000270",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-08-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000089542126000270/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-032638",
    "ticker": "IREN",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-08-13",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "bb624b7e-6755-456d-b6db-a50356f7bc70"
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126032638/ef20080141_8k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0000895421-26-000259",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-08-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000089542126000259/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-094844",
    "ticker": "NBIS",
    "form": "6-K",
    "desc": "Current report of foreign issuer",
    "date": "2026-08-12",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "e9712ca3-02e3-41f1-b64e-2f4981251730"
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094844/nbis-20260812x6k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-094568",
    "ticker": "NBIS",
    "form": "6-K",
    "desc": "Current report of foreign issuer",
    "date": "2026-08-12",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "7cc9e753-91b4-4e64-9f17-21413c48d616"
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094568/tm2622968d1_6k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0000886982-26-000449",
+   "ticker": "IREN",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-08-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000088698226000449/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-26-000098",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000159588826000098/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000886982-26-000446",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000088698226000446/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000366",
    "ticker": "CRWV",
    "form": "10-Q",
    "desc": "Quarterly report",
-   "date": "2026-08-11",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=10-Q&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "a8fa482c-03f6-44a4-85d0-23a1db4eb4d7"
+   "date": "2026-08-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001595888-26-000097",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000159588826000097/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000362",
    "ticker": "CRWV",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-08-11",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "dfecea7f-270d-4d81-8eee-2c7f76b2e667"
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/crwv-20260811.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001595888-26-000093",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000159588826000093/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-342390",
    "ticker": "GOOGL",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-08-10",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "33e8e61c-b953-452a-94bf-b6c19cf9c1d9"
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526342390/d171253d8k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001859392-26-000091",
    "ticker": "GLXY",
    "form": "10-Q",
    "desc": "Quarterly report",
    "date": "2026-08-10",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=10-Q&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "c51b09f9-2ab8-4273-9726-c89bb2b90e83"
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000091/glxy-20260630.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001769628-26-000357",
    "ticker": "CRWV",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-08-10",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "479f4eb2-ac0b-4cb5-a759-57c8ae6eebd2"
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm",
+   "addedOn": ""
   },
   {
+   "id": "0000886982-26-000308",
+   "ticker": "NBIS",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000088698226000308/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000886982-26-000305",
+   "ticker": "NBIS",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-08-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000088698226000305/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-340264",
+   "ticker": "GOOGL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-08-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526340264/d32286d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000315066-26-002069",
+   "ticker": "META",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000031506626002069/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-336853",
    "ticker": "GOOGL",
    "form": "424B5",
    "desc": "Prospectus (securities offering)",
    "date": "2026-08-06",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL&type=424B5&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "c1deff23-791c-424e-abcd-bd7f98373e1a"
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526336853/d140593d424b5.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001193125-26-336798",
    "ticker": "GOOGL",
    "form": "424B5",
    "desc": "Prospectus (securities offering)",
    "date": "2026-08-06",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL&type=424B5&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "e3573e85-39a4-4b9e-85be-4422e2a99b2a"
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526336798/d32286d424b5.htm",
+   "addedOn": ""
   },
   {
-   "ticker": "WULF",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2026-08-05",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WULF&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "a48ec76f-7577-4a9c-81e7-c77b440d29c0"
+   "id": "0000315066-26-002020",
+   "ticker": "GLXY",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000031506626002020/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-092071",
+   "ticker": "AMZN",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-08-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926092071/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-26-000166",
    "ticker": "WULF",
    "form": "10-Q",
    "desc": "Quarterly report",
    "date": "2026-08-05",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WULF&type=10-Q&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "5ccac427-125c-484f-be64-0353990afc31"
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000166/wulf-20260630.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001083301-26-000162",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000162/wulf-20260805.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000086",
    "ticker": "GLXY",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-08-05",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "2b6b37cb-10b4-4b4f-b31f-85d79819804f"
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000086/glxy-20260805.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001859392-26-000084",
    "ticker": "GLXY",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-08-05",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "838be653-f9da-4194-96a0-1fd25b6a77d0"
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000084/glxy-20260805.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-091181",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000110465926091181/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-031055",
+   "ticker": "IREN",
+   "form": "424B7",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-08-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126031055/ny20079234x1_424b7.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-031053",
    "ticker": "IREN",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-08-04",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "7292563d-8658-4c1f-8c9c-0a7396195737"
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126031053/ny20079234x2_8k.htm",
+   "addedOn": ""
   },
   {
-   "ticker": "HUT",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2026-08-04",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HUT&type=10-Q&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "757f6ba7-2809-4ae1-b579-f48330e9bbcf"
-  },
-  {
+   "id": "0001104659-26-090041",
    "ticker": "HUT",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-08-04",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HUT&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "7d9bd90e-6211-4c8e-8b04-07e821cfdd9d"
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926090041/tm2621890d1_8k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-090025",
+   "ticker": "HUT",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-08-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926090025/hut-20260630x10q.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000919574-26-004796",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-08-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000091957426004796/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-26-000041",
    "ticker": "CIFR",
    "form": "10-Q",
    "desc": "Quarterly report",
    "date": "2026-08-04",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CIFR&type=10-Q&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "3153b81e-c062-43f0-9f1e-7ec79fbd6585"
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000041/cifr-20260630.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001819989-26-000038",
    "ticker": "CIFR",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-08-04",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CIFR&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "5aac32fa-02e6-46f1-91f4-4116d7333e66"
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000038/cifr-20260804.htm",
+   "addedOn": ""
   },
   {
+   "id": "0000070858-26-000397",
+   "ticker": "IREN",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-08-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000007085826000397/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100121-26-000988",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000210012126000988/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100121-26-000928",
+   "ticker": "HUT",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000210012126000928/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100119-26-001382",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000210011926001382/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100121-26-000907",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000210012126000907/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001018724-26-000026",
    "ticker": "AMZN",
    "form": "10-Q",
    "desc": "Quarterly report",
-   "date": "2026-07-30",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=10-Q&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "ebef9fdf-d5f5-49b7-8939-3d32775ec12b"
+   "date": "2026-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+   "addedOn": ""
   },
   {
+   "id": "0002012383-26-003109",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-07-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000201238326003109/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-050705",
+   "ticker": "META",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-07-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001018724-26-000024",
    "ticker": "AMZN",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-30",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "b56930db-db6f-4891-9006-adebb53848a9"
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001193125-26-323660",
    "ticker": "MSFT",
    "form": "10-K",
    "desc": "Annual report",
    "date": "2026-07-29",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=10-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "09941627-7a45-4935-9a3b-963da1ea009a"
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001193125-26-323632",
    "ticker": "MSFT",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-29",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "65bf974b-5340-4978-97b0-221e5ab41113"
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm",
+   "addedOn": ""
   },
   {
-   "ticker": "META",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2026-07-29",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=META&type=10-Q&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "d4d675d5-7077-4522-98d2-1301adf67bdc"
-  },
-  {
+   "id": "0001628280-26-050596",
    "ticker": "META",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-29",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=META&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "cebf062c-ee90-4484-b45d-da481c2ebd7f"
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-20260729.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001839341-26-000016",
    "ticker": "CORZ",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-29",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "3154dc7b-2269-47e1-ab9f-57a59023274b"
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000016/core-20260729.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001144879-26-000048",
    "ticker": "APLD",
    "form": "10-K",
    "desc": "Annual report",
    "date": "2026-07-29",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=APLD&type=10-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "6d5ddd0f-4bcf-4704-86c6-51f456d6323d"
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000048/apld-20260531.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001859392-26-000079",
    "ticker": "GLXY",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-28",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "03c5a185-05d0-4396-b4fc-ec3cbc4bb4ef"
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000079/glxy-20260728.htm",
+   "addedOn": ""
   },
   {
-   "ticker": "CORZ",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2026-07-28",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "868975ba-b33b-4848-9bf1-da56ce2f663f"
-  },
-  {
+   "id": "0001839341-26-000014",
    "ticker": "CORZ",
    "form": "10-Q",
    "desc": "Quarterly report",
    "date": "2026-07-28",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=10-Q&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "8d3d093f-8503-41c7-a68e-85b0ccee5c32"
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001839341-26-000013",
    "ticker": "CORZ",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-28",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CORZ&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "c8a64bc8-ab89-4126-a51d-a03880fae7ff"
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000013/core-20260728.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001839341-26-000012",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000012/core-20260727.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-087080",
    "ticker": "NBIS",
    "form": "6-K",
    "desc": "Current report of foreign issuer",
    "date": "2026-07-27",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "9ca12bdf-b6db-43ab-8445-6e30546b8489"
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926087080/tm2621374d1_6k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001144879-26-000044",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-07-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000044/apld-20260727.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0002012383-26-002264",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-07-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000201238326002264/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000074",
    "ticker": "GLXY",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-24",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "71d2bbf1-2ce5-432e-932e-22e250caaf39"
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000074/glxy-20260723.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001652044-26-000071",
+   "ticker": "GOOGL",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-07-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001652044-26-000066",
    "ticker": "GOOGL",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-22",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "d28124ce-643d-466c-9d85-5f809fce66df"
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/goog-20260722.htm",
+   "addedOn": ""
   },
   {
-   "ticker": "GOOGL",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2026-07-22",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL&type=10-Q&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "fc8c4fc6-6d1e-4396-8b8f-1bee271cfab5"
-  },
-  {
+   "id": "0001859392-26-000068",
    "ticker": "GLXY",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-22",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "6722026e-dc3f-4331-a900-dbb1d48bbf37"
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000068/glxy-20260722.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001045810-26-000062",
+   "ticker": "NBIS",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-07-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000104581026000062/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-028871",
    "ticker": "IREN",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-20",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "7a680531-1b87-464d-b964-035a071eba64"
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126028871/ef20078253_8k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-084862",
    "ticker": "HUT",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-20",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HUT&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "1ebd875d-9ba0-49a6-8d2e-87ff178bb262"
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926084862/tm2620835d1_8k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-084606",
+   "ticker": "NBIS",
+   "form": "6-K/A",
+   "desc": "Current report of foreign issuer (amendment)",
+   "date": "2026-07-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926084606/tm2620779d1_6ka.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-084452",
    "ticker": "NBIS",
    "form": "6-K",
    "desc": "Current report of foreign issuer",
    "date": "2026-07-17",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "7d0b1677-e281-4118-ae7e-1d3ac1531b75"
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926084452/tm2620683d1_6k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0000009631-26-000020",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-07-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000000963126000020/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000063",
    "ticker": "GLXY",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-13",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLXY&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "67330b3c-4935-4690-a334-d3920ce2c75e"
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000063/glxy-20260710.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001140361-26-028014",
+   "ticker": "IREN",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-07-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126028014/ef20077507_defa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-082293",
    "ticker": "AMZN",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-09",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "1b02aefb-0ff2-4208-a190-55fdd94af5a5"
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926082293/tm2619352d4_8k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001493152-26-032572",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-07-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226032572/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-081786",
    "ticker": "AMZN",
    "form": "424B5",
    "desc": "Prospectus (securities offering)",
    "date": "2026-07-08",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=424B5&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "646c5ed9-4763-4d47-8869-b274644d4001"
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926081786/tm2619352-2_424b5.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-080950",
    "ticker": "AMZN",
    "form": "424B5",
    "desc": "Prospectus (securities offering)",
    "date": "2026-07-07",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=424B5&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "a7729070-ee4b-4aea-9eec-b3040d5119a3"
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926080950/tm2619352-1_424b5.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001104659-26-080583",
    "ticker": "WULF",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-06",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WULF&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "486fd3ef-2180-4905-a32d-eb2dfe2332be"
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465926080583/tm2619468d1_8k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001140361-26-027202",
    "ticker": "IREN",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-07-01",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IREN&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "384a9c3e-7109-4df4-af68-0526f01bf29d"
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126027202/ef20077190_8k.htm",
+   "addedOn": ""
   },
   {
+   "id": "0001493152-26-030373",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-06-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226030373/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-030333",
    "ticker": "APLD",
    "form": "8-K",
    "desc": "Current report",
    "date": "2026-06-26",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=APLD&type=8-K&dateb=&owner=include&count=40",
-   "addedOn": "",
-   "id": "a000aa85-1d0d-46f5-a9ec-c61804ddd84c"
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226030333/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-26-000064",
+   "ticker": "GLXY",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-06-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000159588826000064/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-278585",
+   "ticker": "ORCL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526278585/d120346d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-076939",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-06-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000110465926076939/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-277521",
+   "ticker": "ORCL",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-06-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000291",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/crwv-20260618.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-028993",
+   "ticker": "APLD",
+   "form": "8-K/A",
+   "desc": "Current report (amendment)",
+   "date": "2026-06-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226028993/form8-ka.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-074352",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-06-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926074352/tm2618059d1_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-028899",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226028899/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-26-008994",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010326008994/dp248453_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-073505",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926073505/tm2617732d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-073562",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926073562/tm2613616d5_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-267578",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526267578/d57679d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000278",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000278/crwv-20260611.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-26-000115",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000115/wulf-20260609.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-265848",
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-20260610.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-071952",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926071952/tm2617190d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000270",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000270/crwv-20260608.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-072332",
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-06-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926072332/tm2613616-2_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-072140",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926072140/tm2613616d4_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-26-008678",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010326008678/dp248139_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-027984",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226027984/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-027979",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226027979/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-027857",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226027857/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-26-000032",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000032/cifr-20260602.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-26-008635",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010326008635/dp248110_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-071190",
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-06-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926071190/tm2613616-1_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-258667",
+   "ticker": "MSFT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526258667/d26760d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-070744",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926070744/tm2616926d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-259830",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526259830/d36818d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001652044-26-000059",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000059/goog-20260602.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-258001",
+   "ticker": "GOOGL",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526258001/d36803ddefa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-041300",
+   "ticker": "CRWV",
+   "form": "S-3ASR",
+   "desc": "Shelf registration",
+   "date": "2026-06-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000162828026041300/crwv-formsx3asr.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-070393",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926070393/tm2616869d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-257724",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257724/d83560d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-257702",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257702/d152175d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-257690",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257690/d159942d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-256375",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526256375/d152107d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001123292-26-000806",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-06-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329226000806/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-252439",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252439/d150348d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-252392",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252392/d152175d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-252374",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252374/d159942d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-252362",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-06-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252362/d152107d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-023427",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-06-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126023427/ef20075181_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-251560",
+   "ticker": "GOOGL",
+   "form": "S-3ASR",
+   "desc": "Shelf registration",
+   "date": "2026-06-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526251560/d135361ds3asr.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-039193",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000060",
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000060/glxy-20260528.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-067067",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-05-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465926067067/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000935836-26-000303",
+   "ticker": "NBIS",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-05-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000093583626000303/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-26-000109",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000109/wulf-20260522.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001878848-26-000030",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000030/iren-20260519.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-26-000048",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-05-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000159588826000048/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001839341-26-000005",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000005/core-20260526.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-065681",
+   "ticker": "NBIS",
+   "form": "20-F/A",
+   "desc": "Annual report (foreign issuer) (amendment)",
+   "date": "2026-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926065681/nbis-20251231x20fa.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-065717",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926065717/tm2614288d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-234488",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526234488/d144566d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-037301",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-05-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000162828026037301/galaxy-resalesx3424b3.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-064092",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-05-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926064092/nbis-20260331x6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-228923",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526228923/d137872d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000236",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/crwv-20260515.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001123292-26-000680",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-05-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329226000680/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-062772",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465926062772/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001446580-26-000066",
+   "ticker": "HUT",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000144658026000066/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002058067-26-000007",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000205806726000007/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000935836-26-000288",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000093583626000288/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-062738",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000110465926062738/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001839341-26-000002",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000002/core-20260512.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001446580-26-000062",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-05-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000144658026000062/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-224155",
+   "ticker": "MSFT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526224155/d125909d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-021285",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126021285/ef20073507_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-059872",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926059872/tm2614392d1_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001123292-26-000662",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-05-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329226000662/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-219708",
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526219708/d76569d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-020669",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126020669/ef20073131_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-022569",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13D",
+   "desc": "Beneficial ownership report",
+   "date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226022569/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-26-000042",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-05-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000159588826000042/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-020370",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126020370/ef20072983_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001878848-26-000028",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000028/iren-20260508.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-216986",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526216986/d109021d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-215570",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-05-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526215570/d137872d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-26-000092",
+   "ticker": "WULF",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000092/wulf-20260331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-26-000083",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000083/wulf-20260508.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001878848-26-000026",
+   "ticker": "IREN",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000026/iren-20260331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001878848-26-000025",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000025/iren-20260507.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-032994",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000162828026032994/a424b3-decemberresalesx1q1.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-032992",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000162828026032992/a424b3-juneresalesx1q12026.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-032991",
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000162828026032991/glxy-20260508.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-032988",
+   "ticker": "GLXY",
+   "form": "S-3ASR",
+   "desc": "Shelf registration",
+   "date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000162828026032988/galaxy-sx3asr.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-032968",
+   "ticker": "GLXY",
+   "form": "S-3",
+   "desc": "Shelf registration",
+   "date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000162828026032968/galaxy-resalesx3.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000054",
+   "ticker": "GLXY",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000054/glxy-20260331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000222",
+   "ticker": "CRWV",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-05-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-212222",
+   "ticker": "GOOGL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-05-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526212222/d325417d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-212210",
+   "ticker": "GOOGL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-05-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526212210/d152073d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000220",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000220/crwv-20260507.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000886982-26-000133",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-05-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000088698226000133/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-055894",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926055894/hut-20260506x8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-055891",
+   "ticker": "HUT",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-05-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926055891/hut-20260331x10q.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-056551",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-05-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000110465926056551/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-031396",
+   "ticker": "CORZ",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-05-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026031396/core-20260331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-031246",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026031246/core-20260506.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-208905",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526208905/d47435d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-030918",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026030918/core-20260505.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-205120",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-05-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526205120/d325417d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-204938",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-05-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526204938/d152073d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-030553",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026030553/core-20260430.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-26-000028",
+   "ticker": "CIFR",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-05-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000028/cifr-20260331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-26-000025",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000025/cifr-20260505.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-021333",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226021333/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-26-000033",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-05-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000159588826000033/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-204128",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526204128/d134616d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-054974",
+   "ticker": "AMZN",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-05-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926054974/tm261382d4_defa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-053464",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926053464/tm2613296d1_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-201738",
+   "ticker": "META",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526201738/d109954d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-053247",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-05-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926053247/tm2613163d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-052948",
+   "ticker": "NBIS",
+   "form": "20-F",
+   "desc": "Annual report (foreign issuer)",
+   "date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100119-26-000820",
+   "ticker": "MSFT",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000210011926000820/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100119-26-000840",
+   "ticker": "META",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000210011926000840/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-194082",
+   "ticker": "META",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526194082/d109954d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-194008",
+   "ticker": "META",
+   "form": "S-3ASR",
+   "desc": "Shelf registration",
+   "date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526194008/d102985ds3asr.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-028526",
+   "ticker": "META",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001652044-26-000048",
+   "ticker": "GOOGL",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001018724-26-000014",
+   "ticker": "AMZN",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100121-26-000829",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000210012126000829/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-191507",
+   "ticker": "MSFT",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-191457",
+   "ticker": "MSFT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-20260429.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-028364",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-20260429.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100119-26-000161",
+   "ticker": "GOOGL",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000210011926000161/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100119-26-000137",
+   "ticker": "GOOGL",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000210011926000137/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001652044-26-000043",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/goog-20260429.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100119-26-000494",
+   "ticker": "GLXY",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000210011926000494/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100121-26-000313",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000210012126000313/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100121-26-000210",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000210012126000210/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100119-26-000133",
+   "ticker": "AMZN",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000210011926000133/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001018724-26-000012",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260429.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-26-000077",
+   "ticker": "WULF",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000077/wulf-20260428.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-049810",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926049810/tm2612880d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-049712",
+   "ticker": "HUT",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926049712/tm2534221d4_defa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-049711",
+   "ticker": "HUT",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926049711/hut-20260611xdef14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000047",
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000047/glxy-20260428.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0002100121-26-000111",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-04-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000210012126000111/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-049090",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926049090/tm2612485d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-027645",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026027645/core-20260427.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001308179-26-000343",
+   "ticker": "GOOGL",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000343/a2026alphabetnps_noticeand.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001308179-26-000342",
+   "ticker": "GOOGL",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-04-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001011438-26-000252",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000101143826000252/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001144879-26-000036",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000036/apld-20260423.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000192",
+   "ticker": "CRWV",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000192/defa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000191",
+   "ticker": "CRWV",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000191/crwv-20260422.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000183",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000183/crwv-20260416.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-165121",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526165121/d149019d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-26-000017",
+   "ticker": "CIFR",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000017/cipher2026proxycarddefa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-26-000016",
+   "ticker": "CIFR",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-04-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000016/cifr-20260420.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-044387",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465926044387/tm2611661d9_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-044031",
+   "ticker": "WULF",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465926044031/tm2611661-8_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-025533",
+   "ticker": "META",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025533/meta2026proxydefa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-025532",
+   "ticker": "META",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001011438-26-000241",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000101143826000241/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-017092",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226017092/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000902664-26-001995",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000090266426001995/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-043402",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465926043402/tm2611661d5_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-043376",
+   "ticker": "WULF",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465926043376/tm2611661-6_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000167",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000167/crwv-20260415.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-043279",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465926043279/tm2611661d4_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-043250",
+   "ticker": "WULF",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465926043250/tm2611661-3_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-043178",
+   "ticker": "WULF",
+   "form": "S-3ASR",
+   "desc": "Shelf registration",
+   "date": "2026-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465926043178/tm2611661-1_s3asr.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-025108",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025108/meta-20260408.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000164",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000164/crwv-20260409.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-042880",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926042880/tm2611746d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001652044-26-000034",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000034/goog-20260407.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-148912",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312526148912/d136714d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000154",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000154/crwv-20260331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-041034",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041034/tm263815d2_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-041030",
+   "ticker": "AMZN",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041030/tm261382d3_defa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-041026",
+   "ticker": "AMZN",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-04-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000039",
+   "ticker": "GLXY",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000039/a2026defa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000037",
+   "ticker": "GLXY",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000037/glxy-20260408.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001144879-26-000030",
+   "ticker": "APLD",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000030/apld-20260228.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001144879-26-000029",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000029/apld-20260408.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-142939",
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526142939/d132760d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001652044-26-000031",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-04-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000031/goog-20260330.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-014498",
+   "ticker": "APLD",
+   "form": "8-K/A",
+   "desc": "Current report (amendment)",
+   "date": "2026-04-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226014498/form8-ka.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000129",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/crwv-20260330.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-134869",
+   "ticker": "CORZ",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526134869/d119389ddefa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-134857",
+   "ticker": "CORZ",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526134857/d119389ddef14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-002407",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000010290926002407/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-001995",
+   "ticker": "ORCL",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000010290926001995/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-001884",
+   "ticker": "MSFT",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000010290926001884/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-001886",
+   "ticker": "META",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000010290926001886/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000419",
+   "ticker": "HUT",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000010290926000419/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000584",
+   "ticker": "GOOGL",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000010290926000584/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000583",
+   "ticker": "GOOGL",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000010290926000583/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000369",
+   "ticker": "GLXY",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000010290926000369/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-001008",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000010290926001008/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-001007",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000010290926001007/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000904",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000010290926000904/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000601",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000010290926000601/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000582",
+   "ticker": "AMZN",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000010290926000582/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-26-004609",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010326004609/dp244113_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-020327",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026020327/core-20260318.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-032735",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-03-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926032735/tm268409d4_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001011438-26-000205",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000101143826000205/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-029863",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926029863/tm268409d3_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-019505",
+   "ticker": "CORZ",
+   "form": "10-K/A",
+   "desc": "Annual report (amendment)",
+   "date": "2026-03-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026019505/core-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-029074",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-03-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926029074/tm268409d2_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950142-26-000720",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000095014226000720/eh260751501_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-027886",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926027886/tm268879d1_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-028556",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926028556/tm266670d9_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-010113",
+   "ticker": "APLD",
+   "form": "8-K/A",
+   "desc": "Current report (amendment)",
+   "date": "2026-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226010113/form8-ka.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-027729",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926027729/tm266670d8_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-027669",
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926027669/tm266670-6_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000935836-26-000158",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-03-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000093583626000158/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-027125",
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-03-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926027125/tm266670-4_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-101045",
+   "ticker": "ORCL",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/orcl-20260228.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-026163",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926026163/tm268532d1_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-026082",
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-03-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926026082/tm266670-2_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-100148",
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-20260310.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-009538",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226009538/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-025560",
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-03-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926025560/tm266670-3_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000902664-26-001496",
+   "ticker": "HUT",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-03-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000090266426001496/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001652044-26-000026",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000026/goog-20260304.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-015622",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026015622/core-20260304.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-007919",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126007919/ny20064909x2_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-007918",
+   "ticker": "IREN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126007918/ny20064909x1_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-007905",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126007905/ny20064909x3_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001011438-26-000168",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000101143826000168/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-008849",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226008849/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-008772",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226008772/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000104",
+   "ticker": "CRWV",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-013305",
+   "ticker": "CORZ",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026013305/core-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-013301",
+   "ticker": "CORZ",
+   "form": "10-Q/A",
+   "desc": "Quarterly report (amendment)",
+   "date": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026013301/core-20250930.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-013294",
+   "ticker": "CORZ",
+   "form": "10-Q/A",
+   "desc": "Quarterly report (amendment)",
+   "date": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026013294/core-20250630.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-013286",
+   "ticker": "CORZ",
+   "form": "10-Q/A",
+   "desc": "Quarterly report (amendment)",
+   "date": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026013286/core-20250331.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-013232",
+   "ticker": "CORZ",
+   "form": "10-K/A",
+   "desc": "Annual report (amendment)",
+   "date": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026013232/core-20241231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-013214",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026013214/core-20260302.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-008549",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226008549/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-26-000031",
+   "ticker": "WULF",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-02-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000031/wulf-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-021050",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926021050/tm267374d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-26-000026",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000026/wulf-20260226.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000017",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000017/a424decemberresales-1xfy20.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000019",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000019/a424juneresales-1xfy202510.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000016",
+   "ticker": "GLXY",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000016/glxy-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000094",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000094/crwv-20260226.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-019443",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926019443/hut-20260225x8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-019441",
+   "ticker": "HUT",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926019441/tm267254d1_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-019393",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926019393/hut-20260225x8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-019392",
+   "ticker": "HUT",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926019392/hut-20251231x10k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000905148-26-001041",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000090514826001041/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-26-000009",
+   "ticker": "CIFR",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000009/cifr-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-26-000007",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000007/cifr-20260220.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001315863-26-000198",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000131586326000198/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-006133",
+   "ticker": "CORZ",
+   "form": "8-K/A",
+   "desc": "Current report (amendment)",
+   "date": "2026-02-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036126006133/ef20066152_8ka.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-26-006037",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036126006037/ef20065947_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000940594-26-000014",
+   "ticker": "NBIS",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000094059426000014/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-055590",
+   "ticker": "GOOGL",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526055590/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-006901",
+   "ticker": "APLD",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-02-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226006901/formdefa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-006897",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226006897/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001214659-26-001746",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000121465926001746/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001446580-26-000036",
+   "ticker": "IREN",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000144658026000036/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-051423",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526051423/d946885d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0002058103-26-000003",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000205810326000003/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001446580-26-000032",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-02-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000144658026000032/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001446580-26-000030",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000144658026000030/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-013947",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-02-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926013947/tm266173d2_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-013946",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-02-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926013946/tm266173d1_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-048730",
+   "ticker": "GOOGL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526048730/d108423d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001422848-26-000017",
+   "ticker": "GLXY",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-02-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000142284826000017/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-26-000022",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000159588826000022/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-26-000021",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000159588826000021/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-26-000016",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000159588826000016/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-046846",
+   "ticker": "GOOGL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526046846/d108033d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000312069-26-000021",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000031206926000021/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-26-000002",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000002/cifr-20260211.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-26-001966",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010326001966/dp241421_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-012492",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926012492/tm265786d1_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-043583",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526043583/d108423d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-012665",
+   "ticker": "AMZN",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926012665/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-041936",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526041936/d108033d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000935836-26-000075",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000093583626000075/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-005788",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226005788/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-26-001786",
+   "ticker": "GLXY",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000095010326001786/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-26-011240",
+   "ticker": "AMZN",
+   "form": "S-3ASR",
+   "desc": "Shelf registration",
+   "date": "2026-02-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926011240/tm262510-1_s3asr.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001018724-26-000004",
+   "ticker": "AMZN",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-02-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-039344",
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526039344/d63638d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001878848-26-000015",
+   "ticker": "IREN",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000015/iren-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001878848-26-000014",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000014/iren-20260205.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001652044-26-000018",
+   "ticker": "GOOGL",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000315066-26-000430",
+   "ticker": "GLXY",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000031506626000430/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000315066-26-000407",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000031506626000407/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-26-001659",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010326001659/dp241116_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001018724-26-000002",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20260205.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-26-000013",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000159588826000013/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-037840",
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526037840/d23732d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-037818",
+   "ticker": "ORCL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526037818/d60756d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001652044-26-000012",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/goog-20260204.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-035662",
+   "ticker": "ORCL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526035662/d201622d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-035603",
+   "ticker": "ORCL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526035603/d33906d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000009",
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000009/glxy-20260203.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-26-001480",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010326001480/dp240991_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-26-000023",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000023/wulf-20260202.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-032756",
+   "ticker": "ORCL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526032756/d77737d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-032739",
+   "ticker": "ORCL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526032739/d33906d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-032654",
+   "ticker": "ORCL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526032654/d60756d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-26-000008",
+   "ticker": "IREN",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000159588826000008/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-26-000007",
+   "ticker": "HUT",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000159588826000007/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000306",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-01-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000010290926000306/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000092",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-01-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000010290926000092/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000136",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-01-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000010290926000136/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000079",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-01-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000010290926000079/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-003942",
+   "ticker": "META",
+   "form": "10-K",
+   "desc": "Annual report",
+   "date": "2026-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-027207",
+   "ticker": "MSFT",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-027198",
+   "ticker": "MSFT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-20260128.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-003832",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-01-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-20260128.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000009631-26-000003",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-01-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000000963126000003/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001045810-26-000008",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-01-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000104581026000008/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000044",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-01-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/crwv-20260123.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001011438-26-000035",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-01-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000101143826000035/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-26-002429",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-01-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026002429/meta-20260112.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-002580",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-01-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226002580/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000007",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-01-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000007/a424-decemberxercot.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000006",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-01-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000006/a424ercot8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-26-000005",
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-01-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000005/glxy-20260115.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-26-009002",
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-01-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526009002/d34442d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001144879-26-000006",
+   "ticker": "APLD",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000006/apld-20251130.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-000978",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226000978/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-26-000974",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-01-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226000974/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000021",
+   "ticker": "GLXY",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-01-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000010290926000021/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000102909-26-000020",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-01-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000010290926000020/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001144879-26-000002",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-01-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000002/apld-20260107.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-26-000003",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-01-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000003/crwv-20251231.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-125613",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465925125613/hut-20251222x8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-124839",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925124839/tm2534384d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-029408",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225029408/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-028791",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225028791/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-25-058337",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025058337/meta-20251219.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-25-058094",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-12-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000162828025058094/galaxydigitalinc-resale424b.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-122616",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925122616/tm2533501d2_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-122387",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925122387/tm2533871d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-122293",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925122293/tm2533501d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001011438-25-000598",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000101143825000598/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-122052",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465925122052/hut-20251217x8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-25-056768",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025056768/meta-20251205.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-315925",
+   "ticker": "ORCL",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-25-000088",
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000088/glxy-20251211.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-25-000105",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000105/crwv-20251208.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-314207",
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525314207/orcl-20251210.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-120041",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-12-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000110465925120041/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-25-056158",
+   "ticker": "GLXY",
+   "form": "S-1/A",
+   "desc": "IPO registration statement (amendment)",
+   "date": "2025-12-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000162828025056158/glxy-20251209.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-119388",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925119388/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-311196",
+   "ticker": "MSFT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525311196/d34077d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-044888",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-08",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125044888/ef20060782_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-026369",
+   "ticker": "APLD",
+   "form": "S-3",
+   "desc": "Shelf registration",
+   "date": "2025-12-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225026369/forms-3.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-044381",
+   "ticker": "IREN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-12-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125044381/ny20060080x3_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-044095",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125044095/ny20060080x4_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-025753",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225025753/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-043803",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125043803/ny20060080x2_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-043802",
+   "ticker": "IREN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125043802/ny20060080x1_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001011438-25-000581",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-12-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000101143825000581/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-043599",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125043599/ef20060170_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-25-000107",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330125000107/wulf-20251125.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-043142",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125043142/ef20059594_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-25-015181",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325015181/dp237816_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-291441",
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525291441/d43173d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-25-015073",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325015073/dp237633_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-024479",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225024479/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-114647",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925114647/tm2530638d3_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-024319",
+   "ticker": "APLD",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-11-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225024319/form424b3.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-114098",
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-11-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925114098/tm2530638-4_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001123292-25-000660",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-11-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329225000660/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-112928",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465925112928/hut-20251117x8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001315863-25-000816",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000131586325000816/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-112970",
+   "ticker": "AMZN",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925112970/tm2530638-1_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000940594-25-000015",
+   "ticker": "NBIS",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000094059425000015/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0002069723-25-000004",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000206972325000004/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000902664-25-005059",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000090266425005059/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-022506",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225022506/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-110831",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2025-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925110831/tm2531034d1_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-25-000152",
+   "ticker": "IREN",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000159588825000152/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001446580-25-000116",
+   "ticker": "IREN",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000144658025000116/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001446580-25-000115",
+   "ticker": "HUT",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000144658025000115/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-25-000153",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000159588825000153/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-25-000062",
+   "ticker": "CRWV",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000062/crwv-20250930.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0002068602-25-000002",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000206860225000002/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001446580-25-000112",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000144658025000112/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001446580-25-000110",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000144658025000110/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-25-014692",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325014692/dp237330_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-25-000146",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000159588825000146/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-25-000142",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000159588825000142/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-110028",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2025-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925110028/tm2530882d3_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-110025",
+   "ticker": "NBIS",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925110025/tm2530771-1_424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-109806",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2025-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925109806/tm2530882d1_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-109803",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2025-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925109803/tm2530882d2_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000312069-25-000590",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000031206925000590/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-021955",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225021955/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-25-000099",
+   "ticker": "WULF",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330125000099/wulf-20250930.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-25-000096",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330125000096/wulf-20251110.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-25-000084",
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000084/glxy-20251110.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-25-000083",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000083/a424b3-q3202510xq.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-25-000082",
+   "ticker": "GLXY",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000082/glxy-20250930.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-25-000059",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000059/crwv-20251110.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-021404",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225021404/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-021400",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225021400/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001878848-25-000081",
+   "ticker": "IREN",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884825000081/iren-20250930.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001878848-25-000079",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884825000079/iren-20251106.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-269979",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525269979/d56115d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-25-014401",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325014401/dp237015_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001144879-25-000095",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000095/apld-20251105.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-267270",
+   "ticker": "MSFT",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2025-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525267270/d87183ddefa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-267244",
+   "ticker": "GOOGL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525267244/d64361d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-267232",
+   "ticker": "GOOGL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525267232/d65573d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001123292-25-000612",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329225000612/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-105883",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465925105883/hut-20251104x8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-105874",
+   "ticker": "HUT",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465925105874/hut-20250930x10q.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-25-014195",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325014195/dp236869_8k-launch.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-25-014194",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325014194/dp236870_8k-financials.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-020786",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225020786/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-262593",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/d75422d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-261217",
+   "ticker": "META",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525261217/d762778d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-040072",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125040072/ef20058139_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-261740",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525261740/d64361d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-261546",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525261546/d65573d424b5.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000935836-25-000647",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000093583625000647/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-25-000112",
+   "ticker": "CIFR",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000112/cifr-20250930.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-25-000110",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000110/cifr-20251103.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-104928",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925104928/tm2529894d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-260521",
+   "ticker": "MSFT",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2025-10-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525260521/d939503ddefa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-25-014006",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000095010325014006/dp236631_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001011438-25-000487",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-10-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000101143825000487/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-040020",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125040020/ef20058085_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-020389",
+   "ticker": "APLD",
+   "form": "S-3ASR",
+   "desc": "Shelf registration",
+   "date": "2025-10-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225020389/forms-3asr.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001018724-25-000123",
+   "ticker": "AMZN",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-10-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-103923",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925103923/tm2529509d3_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-257437",
+   "ticker": "META",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525257437/d762778d424b2.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-25-047240",
+   "ticker": "META",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001652044-25-000091",
+   "ticker": "GOOGL",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-25-013968",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000095010325013968/dp236485_424b3.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000950103-25-013949",
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000095010325013949/dp236467_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-039864",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125039864/ef20057996_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-039808",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125039808/ef20057995_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-039804",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125039804/ef20057993_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001018724-25-000121",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20251030.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-103439",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925103439/tm2529509d2_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-256321",
+   "ticker": "MSFT",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-256310",
+   "ticker": "MSFT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-20251028.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-25-047114",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-20251029.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001652044-25-000087",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/goog-20251029.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-102858",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925102858/tm2529509d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-25-046272",
+   "ticker": "CORZ",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828025046272/core-20250930.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001628280-25-046263",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828025046263/core-20251024.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-101866",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925101866/tm2529300d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-25-000136",
+   "ticker": "HUT",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-10-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000159588825000136/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001595888-25-000135",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2025-10-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000159588825000135/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-25-000107",
+   "ticker": "CIFR",
+   "form": "8-K/A",
+   "desc": "Current report (amendment)",
+   "date": "2025-10-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000107/cifr-20250603.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-101520",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2025-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925101520/tm2529289d1_6k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-038945",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125038945/ef20057524_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001144879-25-000076",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000076/apld-20251022.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-245169",
+   "ticker": "MSFT",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245169/d67719ddefa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-245150",
+   "ticker": "MSFT",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-25-000073",
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000073/glxy-20251021.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-018800",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018800/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-25-000070",
+   "ticker": "GLXY",
+   "form": "S-1",
+   "desc": "IPO registration statement",
+   "date": "2025-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000070/glxy-20251020.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-25-000068",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000068/a424b3-8xkaxcreditagreement.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-25-000066",
+   "ticker": "GLXY",
+   "form": "8-K/A",
+   "desc": "Current report (amendment)",
+   "date": "2025-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000066/glxy-20250815.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-018464",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018464/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-100142",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925100142/tm2528904d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001123292-25-000562",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329225000562/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-038207",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125038207/ef20057150_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-25-000101",
+   "ticker": "CIFR",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2025-10-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000101/cifr-20251015.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-018157",
+   "ticker": "APLD",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-10-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018157/form424b3.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-099345",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925099345/tm2528711d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-099020",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925099020/tm2528632d1_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-038083",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125038083/ef20056955_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-25-000062",
+   "ticker": "GLXY",
+   "form": "424B3",
+   "desc": "Prospectus (securities offering)",
+   "date": "2025-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000062/a424b3-october2025pipe.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001859392-25-000061",
+   "ticker": "GLXY",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000061/glxy-20251010.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0000935836-25-000638",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000093583625000638/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-037969",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125037969/ef20056907_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-099267",
+   "ticker": "AMZN",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925099267/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-037753",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125037753/ef20056800_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001011438-25-000471",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-10-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000101143825000471/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001493152-25-017609",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225017609/form8-k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001144879-25-000069",
+   "ticker": "APLD",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2025-10-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000069/apld-20250831.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001144879-25-000068",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000068/apld-20251009.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-037488",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125037488/ef20056749_8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001104659-25-097656",
+   "ticker": "CRWV",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-10-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000110465925097656/xslSCHEDULE_13G_X01/primary_doc.xml",
+   "addedOn": ""
+  },
+  {
+   "id": "0001083301-25-000087",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330125000087/wulf-20251006.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-231901",
+   "ticker": "ORCL",
+   "form": "8-K/A",
+   "desc": "Current report (amendment)",
+   "date": "2025-10-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525231901/d82618d8ka.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-037384",
+   "ticker": "IREN",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2025-10-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125037384/ny20053824x3_defa14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001140361-25-037383",
+   "ticker": "IREN",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2025-10-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125037383/ny20053824x2_def14a.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001769628-25-000052",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000052/crwv-20250925.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-25-000096",
+   "ticker": "CIFR",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2025-10-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000096/cifr-20251006.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001819989-25-000095",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000095/cifr-20251006.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001193125-25-227562",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2025-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525227562/d910811d8k.htm",
+   "addedOn": ""
+  },
+  {
+   "id": "0001123292-25-000508",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2025-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329225000508/xslSCHEDULE_13D_X01/primary_doc.xml",
+   "addedOn": ""
   }
  ]
 }
