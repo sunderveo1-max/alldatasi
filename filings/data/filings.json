@@ -1,6 +1,6 @@
 {
  "source": "edgar",
- "generated": "2026-10-02T16:38:59+00:00",
+ "generated": "2026-10-03T15:08:53+00:00",
  "newCount": 0,
  "newSummary": "",
  "failures": [],
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 32
+   "insider30d": 31
   },
   {
    "ticker": "AMZN",
@@ -24,7 +24,7 @@
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 21
+   "insider30d": 22
   },
   {
    "ticker": "META",
@@ -45,14 +45,14 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 13
+   "insider30d": 21
   },
   {
    "ticker": "NBIS",
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 13
+   "insider30d": 12
   },
   {
    "ticker": "IREN",
@@ -73,28 +73,28 @@
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 1
+   "insider30d": 5
   },
   {
    "ticker": "WULF",
    "name": "TeraWulf",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 5
+   "insider30d": 8
   },
   {
    "ticker": "CORZ",
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 6
+   "insider30d": 5
   },
   {
    "ticker": "GLXY",
    "name": "Galaxy Digital",
    "group": "neocloud",
    "note": "Helios AI campus",
-   "insider30d": 3
+   "insider30d": 1
   },
   {
    "ticker": "HUT",
@@ -5555,24 +5555,6 @@
    "desc": "Current report",
    "date": "2025-10-06",
    "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000095/cifr-20251006.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-227562",
-   "ticker": "CRWV",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-02",
-   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525227562/d910811d8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001123292-25-000508",
-   "ticker": "CIFR",
-   "form": "SCHEDULE 13D/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-10-02",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329225000508/xslSCHEDULE_13D_X01/primary_doc.xml",
    "addedOn": ""
   }
  ]
