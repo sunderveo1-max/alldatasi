@@ -1,6 +1,6 @@
 {
  "source": "edgar",
- "generated": "2026-10-03T15:08:53+00:00",
+ "generated": "2026-10-04T15:48:40+00:00",
  "newCount": 0,
  "newSummary": "",
  "failures": [],
@@ -17,14 +17,14 @@
    "name": "Amazon",
    "group": "hyperscaler",
    "note": "AWS",
-   "insider30d": 3
+   "insider30d": 2
   },
   {
    "ticker": "GOOGL",
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 22
+   "insider30d": 20
   },
   {
    "ticker": "META",
@@ -45,14 +45,14 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 21
+   "insider30d": 19
   },
   {
    "ticker": "NBIS",
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 12
+   "insider30d": 4
   },
   {
    "ticker": "IREN",
