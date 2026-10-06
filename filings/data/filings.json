@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-04T15:48:40+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-10-06T17:12:39+00:00",
+ "newCount": 1,
+ "newSummary": "WULF 8-K",
  "failures": [],
  "companies": [
   {
@@ -17,7 +17,7 @@
    "name": "Amazon",
    "group": "hyperscaler",
    "note": "AWS",
-   "insider30d": 2
+   "insider30d": 3
   },
   {
    "ticker": "GOOGL",
@@ -52,7 +52,7 @@
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 4
+   "insider30d": 7
   },
   {
    "ticker": "IREN",
@@ -66,7 +66,7 @@
    "name": "Applied Digital",
    "group": "neocloud",
    "note": "HPC data centers",
-   "insider30d": 1
+   "insider30d": 2
   },
   {
    "ticker": "CIFR",
@@ -87,7 +87,7 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 5
+   "insider30d": 7
   },
   {
    "ticker": "GLXY",
@@ -112,6 +112,15 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001628280-26-064757",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-10-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026064757/wulf-20261001.htm",
+   "addedOn": "2026-10-06"
+  },
   {
    "id": "0001104659-26-112824",
    "ticker": "NBIS",
