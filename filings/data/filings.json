@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-06T17:12:39+00:00",
- "newCount": 1,
- "newSummary": "WULF 8-K",
+ "generated": "2026-10-07T17:49:48+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -52,7 +52,7 @@
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 7
+   "insider30d": 8
   },
   {
    "ticker": "IREN",
@@ -5501,69 +5501,6 @@
    "desc": "Beneficial ownership report (amendment)",
    "date": "2025-10-07",
    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000110465925097656/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001083301-25-000087",
-   "ticker": "WULF",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330125000087/wulf-20251006.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-231901",
-   "ticker": "ORCL",
-   "form": "8-K/A",
-   "desc": "Current report (amendment)",
-   "date": "2025-10-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525231901/d82618d8ka.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-037384",
-   "ticker": "IREN",
-   "form": "DEFA14A",
-   "desc": "Additional proxy materials",
-   "date": "2025-10-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125037384/ny20053824x3_defa14a.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-037383",
-   "ticker": "IREN",
-   "form": "DEF 14A",
-   "desc": "Definitive proxy statement",
-   "date": "2025-10-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125037383/ny20053824x2_def14a.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001769628-25-000052",
-   "ticker": "CRWV",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000052/crwv-20250925.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001819989-25-000096",
-   "ticker": "CIFR",
-   "form": "DEF 14A",
-   "desc": "Definitive proxy statement",
-   "date": "2025-10-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000096/cifr-20251006.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001819989-25-000095",
-   "ticker": "CIFR",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000095/cifr-20251006.htm",
    "addedOn": ""
   }
  ]
