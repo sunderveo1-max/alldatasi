@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-07T17:49:48+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-10-08T17:53:10+00:00",
+ "newCount": 4,
+ "newSummary": "NBIS SCHEDULE 13G/A, APLD 10-Q, APLD 8-K, CIFR SCHEDULE 13D/A",
  "failures": [],
  "companies": [
   {
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 9
+   "insider30d": 10
   },
   {
    "ticker": "ORCL",
@@ -73,7 +73,7 @@
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 5
+   "insider30d": 6
   },
   {
    "ticker": "WULF",
@@ -87,7 +87,7 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 7
+   "insider30d": 8
   },
   {
    "ticker": "GLXY",
@@ -112,6 +112,42 @@
   }
  ],
  "filings": [
+  {
+   "id": "0000886982-26-000526",
+   "ticker": "NBIS",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-10-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000088698226000526/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-10-08"
+  },
+  {
+   "id": "0001123292-26-001382",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-10-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329226001382/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": "2026-10-08"
+  },
+  {
+   "id": "0001144879-26-000059",
+   "ticker": "APLD",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-10-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000059/apld-20260831.htm",
+   "addedOn": "2026-10-08"
+  },
+  {
+   "id": "0001144879-26-000057",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-10-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apld-20261007.htm",
+   "addedOn": "2026-10-08"
+  },
   {
    "id": "0001628280-26-064757",
    "ticker": "WULF",
@@ -5483,24 +5519,6 @@
    "desc": "Current report",
    "date": "2025-10-09",
    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000068/apld-20251009.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-037488",
-   "ticker": "IREN",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-07",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125037488/ef20056749_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-097656",
-   "ticker": "CRWV",
-   "form": "SCHEDULE 13G/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-10-07",
-   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000110465925097656/xslSCHEDULE_13G_X01/primary_doc.xml",
    "addedOn": ""
   }
  ]
