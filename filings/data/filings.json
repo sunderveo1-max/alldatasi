@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-08T17:53:10+00:00",
- "newCount": 4,
- "newSummary": "NBIS SCHEDULE 13G/A, APLD 10-Q, APLD 8-K, CIFR SCHEDULE 13D/A",
+ "generated": "2026-10-09T17:27:14+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 31
+   "insider30d": 19
   },
   {
    "ticker": "AMZN",
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 10
+   "insider30d": 9
   },
   {
    "ticker": "ORCL",
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 19
+   "insider30d": 21
   },
   {
    "ticker": "NBIS",
