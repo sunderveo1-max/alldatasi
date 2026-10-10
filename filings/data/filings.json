@@ -1,6 +1,6 @@
 {
  "source": "edgar",
- "generated": "2026-10-09T17:27:14+00:00",
+ "generated": "2026-10-10T16:14:50+00:00",
  "newCount": 0,
  "newSummary": "",
  "failures": [],
@@ -17,7 +17,7 @@
    "name": "Amazon",
    "group": "hyperscaler",
    "note": "AWS",
-   "insider30d": 3
+   "insider30d": 1
   },
   {
    "ticker": "GOOGL",
@@ -80,7 +80,7 @@
    "name": "TeraWulf",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "CORZ",
@@ -5474,51 +5474,6 @@
    "desc": "Beneficial ownership report (amendment)",
    "date": "2025-10-14",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925099267/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-037753",
-   "ticker": "IREN",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-09",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125037753/ef20056800_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001011438-25-000471",
-   "ticker": "CORZ",
-   "form": "SCHEDULE 13D/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-10-09",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000101143825000471/xslSCHEDULE_13D_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-017609",
-   "ticker": "APLD",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-09",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225017609/form8-k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001144879-25-000069",
-   "ticker": "APLD",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-10-09",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000069/apld-20250831.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001144879-25-000068",
-   "ticker": "APLD",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-09",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000068/apld-20251009.htm",
    "addedOn": ""
   }
  ]
