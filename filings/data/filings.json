@@ -1,6 +1,6 @@
 {
  "source": "edgar",
- "generated": "2026-10-10T16:14:50+00:00",
+ "generated": "2026-10-11T16:39:27+00:00",
  "newCount": 0,
  "newSummary": "",
  "failures": [],
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 19
+   "insider30d": 18
   },
   {
    "ticker": "AMZN",
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 9
+   "insider30d": 8
   },
   {
    "ticker": "ORCL",
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 21
+   "insider30d": 18
   },
   {
    "ticker": "NBIS",
@@ -87,14 +87,14 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "GLXY",
    "name": "Galaxy Digital",
    "group": "neocloud",
    "note": "Helios AI campus",
-   "insider30d": 1
+   "insider30d": 0
   },
   {
    "ticker": "HUT",
