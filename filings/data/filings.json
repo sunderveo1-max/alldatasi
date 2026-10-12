@@ -1,6 +1,6 @@
 {
  "source": "edgar",
- "generated": "2026-10-11T16:39:27+00:00",
+ "generated": "2026-10-12T20:18:21+00:00",
  "newCount": 0,
  "newSummary": "",
  "failures": [],
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 18
+   "insider30d": 8
   },
   {
    "ticker": "AMZN",
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "ORCL",
@@ -80,7 +80,7 @@
    "name": "TeraWulf",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 7
+   "insider30d": 6
   },
   {
    "ticker": "CORZ",
