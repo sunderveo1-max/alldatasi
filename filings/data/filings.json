@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-12T20:18:21+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-10-13T18:19:52+00:00",
+ "newCount": 1,
+ "newSummary": "CIFR 8-K",
  "failures": [],
  "companies": [
   {
@@ -112,6 +112,15 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001193125-26-419743",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-10-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000119312526419743/d134900d8k.htm",
+   "addedOn": "2026-10-13"
+  },
   {
    "id": "0000886982-26-000526",
    "ticker": "NBIS",
