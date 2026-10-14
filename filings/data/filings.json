@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-13T18:19:52+00:00",
- "newCount": 1,
- "newSummary": "CIFR 8-K",
+ "generated": "2026-10-14T15:50:07+00:00",
+ "newCount": 3,
+ "newSummary": "IREN DEFA14A, IREN DEF 14A, CIFR 8-K",
  "failures": [],
  "companies": [
   {
@@ -52,7 +52,7 @@
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 8
+   "insider30d": 9
   },
   {
    "ticker": "IREN",
@@ -66,7 +66,7 @@
    "name": "Applied Digital",
    "group": "neocloud",
    "note": "HPC data centers",
-   "insider30d": 2
+   "insider30d": 3
   },
   {
    "ticker": "CIFR",
@@ -112,6 +112,33 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001193125-26-421035",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000119312526421035/d77312d8k.htm",
+   "addedOn": "2026-10-14"
+  },
+  {
+   "id": "0001140361-26-039452",
+   "ticker": "IREN",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-10-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126039452/ny20078226x2_defa14a.htm",
+   "addedOn": "2026-10-14"
+  },
+  {
+   "id": "0001140361-26-039451",
+   "ticker": "IREN",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-10-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/ny20078226x1_def14a.htm",
+   "addedOn": "2026-10-14"
+  },
   {
    "id": "0001193125-26-419743",
    "ticker": "CIFR",
