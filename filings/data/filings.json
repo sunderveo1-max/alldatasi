@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-14T15:50:07+00:00",
- "newCount": 3,
- "newSummary": "IREN DEFA14A, IREN DEF 14A, CIFR 8-K",
+ "generated": "2026-10-15T15:35:59+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 8
+   "insider30d": 9
   },
   {
    "ticker": "AMZN",
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 7
+   "insider30d": 8
   },
   {
    "ticker": "ORCL",
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 18
+   "insider30d": 20
   },
   {
    "ticker": "NBIS",
@@ -66,7 +66,7 @@
    "name": "Applied Digital",
    "group": "neocloud",
    "note": "HPC data centers",
-   "insider30d": 3
+   "insider30d": 2
   },
   {
    "ticker": "CIFR",
@@ -87,7 +87,7 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 7
+   "insider30d": 8
   },
   {
    "ticker": "GLXY",
@@ -5438,78 +5438,6 @@
    "desc": "Prospectus (securities offering)",
    "date": "2025-10-15",
    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018157/form424b3.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-099345",
-   "ticker": "WULF",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925099345/tm2528711d1_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-099020",
-   "ticker": "WULF",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925099020/tm2528632d1_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-038083",
-   "ticker": "IREN",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125038083/ef20056955_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001859392-25-000062",
-   "ticker": "GLXY",
-   "form": "424B3",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-10-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000062/a424b3-october2025pipe.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001859392-25-000061",
-   "ticker": "GLXY",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000061/glxy-20251010.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000935836-25-000638",
-   "ticker": "CORZ",
-   "form": "SCHEDULE 13D/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-10-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000093583625000638/xslSCHEDULE_13D_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-037969",
-   "ticker": "CORZ",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125037969/ef20056907_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-099267",
-   "ticker": "AMZN",
-   "form": "SCHEDULE 13G/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-10-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925099267/xslSCHEDULE_13G_X01/primary_doc.xml",
    "addedOn": ""
   }
  ]
