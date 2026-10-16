@@ -1,6 +1,6 @@
 {
  "source": "edgar",
- "generated": "2026-10-15T15:35:59+00:00",
+ "generated": "2026-10-16T15:23:02+00:00",
  "newCount": 0,
  "newSummary": "",
  "failures": [],
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 9
+   "insider30d": 7
   },
   {
    "ticker": "AMZN",
@@ -24,7 +24,7 @@
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 20
+   "insider30d": 21
   },
   {
    "ticker": "META",
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 20
+   "insider30d": 19
   },
   {
    "ticker": "NBIS",
@@ -66,14 +66,14 @@
    "name": "Applied Digital",
    "group": "neocloud",
    "note": "HPC data centers",
-   "insider30d": 2
+   "insider30d": 3
   },
   {
    "ticker": "CIFR",
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 6
+   "insider30d": 7
   },
   {
    "ticker": "WULF",
@@ -5411,33 +5411,6 @@
    "desc": "Beneficial ownership report (amendment)",
    "date": "2025-10-16",
    "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329225000562/xslSCHEDULE_13D_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-038207",
-   "ticker": "CORZ",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-15",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125038207/ef20057150_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001819989-25-000101",
-   "ticker": "CIFR",
-   "form": "DEFA14A",
-   "desc": "Additional proxy materials",
-   "date": "2025-10-15",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000101/cifr-20251015.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-018157",
-   "ticker": "APLD",
-   "form": "424B3",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-10-15",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018157/form424b3.htm",
    "addedOn": ""
   }
  ]
