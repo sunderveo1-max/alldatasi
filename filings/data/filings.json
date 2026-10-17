@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-16T15:23:02+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-10-17T14:13:24+00:00",
+ "newCount": 1,
+ "newSummary": "CIFR 8-K",
  "failures": [],
  "companies": [
   {
@@ -24,14 +24,14 @@
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 21
+   "insider30d": 8
   },
   {
    "ticker": "META",
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "ORCL",
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 19
+   "insider30d": 18
   },
   {
    "ticker": "NBIS",
@@ -80,14 +80,14 @@
    "name": "TeraWulf",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 6
+   "insider30d": 5
   },
   {
    "ticker": "CORZ",
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "GLXY",
@@ -112,6 +112,15 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001193125-26-424297",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000119312526424297/d313847d8k.htm",
+   "addedOn": "2026-10-17"
+  },
   {
    "id": "0001193125-26-421035",
    "ticker": "CIFR",
@@ -5393,24 +5402,6 @@
    "desc": "Current report",
    "date": "2025-10-17",
    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018464/form8-k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-100142",
-   "ticker": "WULF",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-16",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925100142/tm2528904d1_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001123292-25-000562",
-   "ticker": "CIFR",
-   "form": "SCHEDULE 13D/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-10-16",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329225000562/xslSCHEDULE_13D_X01/primary_doc.xml",
    "addedOn": ""
   }
  ]
