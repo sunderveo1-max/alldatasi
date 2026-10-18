@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-17T14:13:24+00:00",
- "newCount": 1,
- "newSummary": "CIFR 8-K",
+ "generated": "2026-10-18T14:36:25+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 7
+   "insider30d": 2
   },
   {
    "ticker": "AMZN",
@@ -31,28 +31,28 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 7
+   "insider30d": 6
   },
   {
    "ticker": "ORCL",
    "name": "Oracle",
    "group": "hyperscaler",
    "note": "OCI",
-   "insider30d": 13
+   "insider30d": 7
   },
   {
    "ticker": "CRWV",
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 18
+   "insider30d": 17
   },
   {
    "ticker": "NBIS",
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 9
+   "insider30d": 8
   },
   {
    "ticker": "IREN",
@@ -87,7 +87,7 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 7
+   "insider30d": 6
   },
   {
    "ticker": "GLXY",
@@ -5393,15 +5393,6 @@
    "desc": "Current report (amendment)",
    "date": "2025-10-20",
    "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000066/glxy-20250815.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-018464",
-   "ticker": "APLD",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-17",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018464/form8-k.htm",
    "addedOn": ""
   }
  ]
