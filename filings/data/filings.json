@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-19T17:29:37+00:00",
- "newCount": 1,
- "newSummary": "WULF SCHEDULE 13G/A",
+ "generated": "2026-10-20T15:39:38+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -38,7 +38,7 @@
    "name": "Oracle",
    "group": "hyperscaler",
    "note": "OCI",
-   "insider30d": 7
+   "insider30d": 16
   },
   {
    "ticker": "CRWV",
@@ -52,7 +52,7 @@
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 9
+   "insider30d": 10
   },
   {
    "ticker": "IREN",
