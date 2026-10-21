@@ -1,6 +1,6 @@
 {
  "source": "edgar",
- "generated": "2026-10-20T15:39:38+00:00",
+ "generated": "2026-10-21T15:58:02+00:00",
  "newCount": 0,
  "newSummary": "",
  "failures": [],
@@ -87,7 +87,7 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 6
+   "insider30d": 8
   },
   {
    "ticker": "GLXY",
@@ -5375,33 +5375,6 @@
    "desc": "Current report",
    "date": "2025-10-21",
    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018800/form8-k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001859392-25-000070",
-   "ticker": "GLXY",
-   "form": "S-1",
-   "desc": "IPO registration statement",
-   "date": "2025-10-20",
-   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000070/glxy-20251020.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001859392-25-000068",
-   "ticker": "GLXY",
-   "form": "424B3",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-10-20",
-   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000068/a424b3-8xkaxcreditagreement.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001859392-25-000066",
-   "ticker": "GLXY",
-   "form": "8-K/A",
-   "desc": "Current report (amendment)",
-   "date": "2025-10-20",
-   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000066/glxy-20250815.htm",
    "addedOn": ""
   }
  ]
