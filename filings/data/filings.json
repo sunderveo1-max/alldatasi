@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-21T15:58:02+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-10-22T15:53:31+00:00",
+ "newCount": 8,
+ "newSummary": "MSFT DEFA14A, MSFT DEF 14A, META 10-Q, META 8-K, NBIS 6-K, CIFR SCHEDULE 13G, CIFR SCHEDULE 13G, CIFR SCHEDULE 13G/A",
  "failures": [],
  "companies": [
   {
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 6
+   "insider30d": 7
   },
   {
    "ticker": "ORCL",
@@ -112,6 +112,78 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001104659-26-117978",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/tm2628078d1_6k.htm",
+   "addedOn": "2026-10-22"
+  },
+  {
+   "id": "0001628280-26-066773",
+   "ticker": "META",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+   "addedOn": "2026-10-22"
+  },
+  {
+   "id": "0001193125-26-427867",
+   "ticker": "MSFT",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427867/d65906ddefa14a.htm",
+   "addedOn": "2026-10-22"
+  },
+  {
+   "id": "0001193125-26-427849",
+   "ticker": "MSFT",
+   "form": "DEF 14A",
+   "desc": "Definitive proxy statement",
+   "date": "2026-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm",
+   "addedOn": "2026-10-22"
+  },
+  {
+   "id": "0001628280-26-066700",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm",
+   "addedOn": "2026-10-22"
+  },
+  {
+   "id": "0001104659-26-117904",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000110465926117904/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-10-22"
+  },
+  {
+   "id": "0001595888-26-000124",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000159588826000124/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-10-22"
+  },
+  {
+   "id": "0001595888-26-000123",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000159588826000123/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-10-22"
+  },
   {
    "id": "0000009631-26-000037",
    "ticker": "WULF",
@@ -5339,42 +5411,6 @@
    "desc": "Current report",
    "date": "2025-10-22",
    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000076/apld-20251022.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-245169",
-   "ticker": "MSFT",
-   "form": "DEFA14A",
-   "desc": "Additional proxy materials",
-   "date": "2025-10-21",
-   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245169/d67719ddefa14a.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-245150",
-   "ticker": "MSFT",
-   "form": "DEF 14A",
-   "desc": "Definitive proxy statement",
-   "date": "2025-10-21",
-   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001859392-25-000073",
-   "ticker": "GLXY",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-21",
-   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000073/glxy-20251021.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-018800",
-   "ticker": "APLD",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-21",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018800/form8-k.htm",
    "addedOn": ""
   }
  ]
