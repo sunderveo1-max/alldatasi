@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-22T15:53:31+00:00",
- "newCount": 8,
- "newSummary": "MSFT DEFA14A, MSFT DEF 14A, META 10-Q, META 8-K, NBIS 6-K, CIFR SCHEDULE 13G, CIFR SCHEDULE 13G, CIFR SCHEDULE 13G/A",
+ "generated": "2026-10-23T15:45:24+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 16
+   "insider30d": 17
   },
   {
    "ticker": "NBIS",
@@ -5384,33 +5384,6 @@
    "desc": "Current report (amendment)",
    "date": "2025-10-23",
    "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000107/cifr-20250603.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-101520",
-   "ticker": "NBIS",
-   "form": "6-K",
-   "desc": "Current report of foreign issuer",
-   "date": "2025-10-22",
-   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925101520/tm2529289d1_6k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-038945",
-   "ticker": "CORZ",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-22",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125038945/ef20057524_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001144879-25-000076",
-   "ticker": "APLD",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-22",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000076/apld-20251022.htm",
    "addedOn": ""
   }
  ]
