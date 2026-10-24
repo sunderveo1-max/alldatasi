@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-23T15:45:24+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-10-24T14:34:42+00:00",
+ "newCount": 1,
+ "newSummary": "WULF 8-K",
  "failures": [],
  "companies": [
   {
@@ -31,14 +31,14 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 7
+   "insider30d": 5
   },
   {
    "ticker": "ORCL",
    "name": "Oracle",
    "group": "hyperscaler",
    "note": "OCI",
-   "insider30d": 16
+   "insider30d": 10
   },
   {
    "ticker": "CRWV",
@@ -80,14 +80,14 @@
    "name": "TeraWulf",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 5
+   "insider30d": 4
   },
   {
    "ticker": "CORZ",
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "GLXY",
@@ -112,6 +112,15 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001628280-26-067100",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-10-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026067100/wulf-20261023.htm",
+   "addedOn": "2026-10-24"
+  },
   {
    "id": "0001104659-26-117978",
    "ticker": "NBIS",
@@ -5348,42 +5357,6 @@
    "desc": "Current report",
    "date": "2025-10-24",
    "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828025046263/core-20251024.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-101866",
-   "ticker": "WULF",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-23",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925101866/tm2529300d1_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001595888-25-000136",
-   "ticker": "HUT",
-   "form": "SCHEDULE 13G",
-   "desc": "Beneficial ownership report",
-   "date": "2025-10-23",
-   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000159588825000136/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001595888-25-000135",
-   "ticker": "CIFR",
-   "form": "SCHEDULE 13G",
-   "desc": "Beneficial ownership report",
-   "date": "2025-10-23",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000159588825000135/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001819989-25-000107",
-   "ticker": "CIFR",
-   "form": "8-K/A",
-   "desc": "Current report (amendment)",
-   "date": "2025-10-23",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000107/cifr-20250603.htm",
    "addedOn": ""
   }
  ]
