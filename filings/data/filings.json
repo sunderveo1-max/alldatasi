@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-24T14:34:42+00:00",
- "newCount": 1,
- "newSummary": "WULF 8-K",
+ "generated": "2026-10-25T14:57:56+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 17
+   "insider30d": 15
   },
   {
    "ticker": "NBIS",
@@ -5339,24 +5339,6 @@
    "desc": "Current report",
    "date": "2025-10-28",
    "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925102858/tm2529509d1_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001628280-25-046272",
-   "ticker": "CORZ",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-10-24",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828025046272/core-20250930.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001628280-25-046263",
-   "ticker": "CORZ",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-24",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828025046263/core-20251024.htm",
    "addedOn": ""
   }
  ]
