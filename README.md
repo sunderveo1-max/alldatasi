@@ -9,6 +9,9 @@ Source for www.alldatasi.com, served by GitHub Pages.
 | `index.html` | Home page: intro, list of posts, latest filings |
 | `posts/<slug>/index.html` | One folder per blog post |
 | `filings/index.html` | AI Cloud Filings Desk dashboard |
+| `semis/index.html` | Semiconductor tracker: daily snapshot of every US-listed semiconductor stock |
+| `semis/data/semis.json` | Snapshot data, rewritten after each trading day's close by a scheduled Claude task |
+| `scripts/build_semis_snapshot.py` | Builds `semis.json` from the scan dump |
 | `filings/data/filings.json` | Filing data, rewritten every morning by the updater |
 | `scripts/update_filings.py` | Pulls filings from SEC EDGAR (standard library only) |
 | `scripts/companies.json` | Which companies the dashboard tracks |

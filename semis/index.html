@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semiconductor Tracker · AllDataSI</title>
+<meta name="description" content="Daily snapshot of every US-listed semiconductor stock: price, daily move, market cap and volume, by segment.">
+<style>
+:root{--bg:#faf9f6;--panel:#fff;--fg:#1f1e1c;--muted:#6b6862;--line:#e4e1da;--ok:#1f7a4d;--bad:#b3261e;--okbar:#2e9e66;--badbar:#d0453b;--chip:#1f1e1c;--chipfg:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171614;--panel:#211f1c;--fg:#ece9e3;--muted:#a19d95;--line:#35322d;--ok:#5cc58e;--bad:#f07a70;--okbar:#3fae74;--badbar:#e0584d;--chip:#ece9e3;--chipfg:#171614}}
+:root[data-theme="dark"]{--bg:#171614;--panel:#211f1c;--fg:#ece9e3;--muted:#a19d95;--line:#35322d;--ok:#5cc58e;--bad:#f07a70;--okbar:#3fae74;--badbar:#e0584d;--chip:#ece9e3;--chipfg:#171614}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:32px 16px 48px;display:flex;flex-direction:column;gap:20px}
+h1{font:400 2rem/1.15 Georgia,"Times New Roman",serif;margin:0}
+.take{color:var(--muted);margin:6px 0 0}
+.stamp{font-size:.8rem;color:var(--muted);margin-top:4px}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button{font:inherit;font-size:.82rem;padding:5px 12px;border:1px solid var(--line);border-radius:999px;background:var(--panel);color:var(--fg);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--chip);color:var(--chipfg);border-color:var(--chip)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,9.5rem),1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px;min-width:0}
+.label{font-size:.8rem;color:var(--muted)}
+.big{font:400 1.7rem/1.2 Georgia,serif;font-variant-numeric:tabular-nums;margin-top:4px}
+h2{font-size:1.05rem;font-weight:600;margin:0}
+.note{font-size:.8rem;color:var(--muted);margin:4px 0 14px}
+.pos{color:var(--ok)}.neg{color:var(--bad)}
+.chart{position:relative}
+.chart svg{display:block;width:100%;height:auto}
+.chart text{font-size:12px;fill:var(--fg)}
+.chart text.v{fill:var(--muted);font-size:11px}
+.tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.search{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);flex:1;min-width:10rem;max-width:20rem}
+.count{font-size:.8rem;color:var(--muted)}
+.scroll{max-height:36rem;overflow:auto}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:600;font-size:.78rem;color:var(--muted);border-bottom:1px solid var(--line);padding:0}
+th button{all:unset;cursor:pointer;display:block;padding:6px 8px;width:100%;box-sizing:border-box}
+th.num button,td.num{text-align:right}
+td{padding:6px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+td.nm{max-width:15rem;overflow:hidden;text-overflow:ellipsis}
+td.sym{font-weight:600}
+.foot{font-size:.78rem;color:var(--muted)}
+.err{color:var(--muted);text-align:center;padding:40px 0}
+@media (max-width:640px){.opt{display:none}h1{font-size:1.6rem}}
+@media (max-width:480px){.nm,th[data-k="name"]{display:none}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <a href="../" style="font-size:.85rem;color:var(--muted);text-decoration:none">← AllDataSI</a>
+    <h1>Semiconductor tracker</h1>
+    <p class="take" id="take">Loading…</p>
+    <div class="stamp" id="stamp"></div>
+  </header>
+  <div class="seg" role="group" aria-label="Segment" id="seg"></div>
+  <section class="tiles">
+    <div class="card"><div class="label">Stocks tracked</div><div class="big" id="t-n">—</div></div>
+    <div class="card"><div class="label">Advancing</div><div class="big pos" id="t-up">—</div></div>
+    <div class="card"><div class="label">Declining</div><div class="big neg" id="t-down">—</div></div>
+    <div class="card"><div class="label">Average % change</div><div class="big" id="t-avg">—</div></div>
+    <div class="card"><div class="label">Combined market cap</div><div class="big" id="t-cap">—</div></div>
+  </section>
+  <section class="card">
+    <h2>Biggest movers</h2>
+    <p class="note">Top and bottom 8 by % change on the day, in the selected segment.</p>
+    <div class="chart" id="chart"></div>
+  </section>
+  <section class="card">
+    <h2>All stocks</h2>
+    <p class="note">Every US-listed stock in Morningstar's semiconductor industry group. Click a header to sort.</p>
+    <div class="tools"><input class="search" id="q" type="search" placeholder="Search ticker or name" aria-label="Search stocks"><span class="count" id="count"></span></div>
+    <div class="scroll">
+      <table>
+        <thead><tr>
+          <th data-k="symbol"><button type="button">Ticker</button></th>
+          <th data-k="name"><button type="button">Name</button></th>
+          <th data-k="segment" class="opt"><button type="button">Segment</button></th>
+          <th data-k="last" class="num"><button type="button">Last</button></th>
+          <th data-k="pct_change" class="num"><button type="button">% chg</button></th>
+          <th data-k="market_cap" class="num"><button type="button">Mkt cap</button></th>
+          <th data-k="volume" class="num opt"><button type="button">Volume</button></th>
+        </tr></thead>
+        <tbody id="tb"></tbody>
+      </table>
+    </div>
+  </section>
+  <p class="foot">Snapshot updated once each trading day after the close. Delayed data for information only, not investment advice.</p>
+</main>
+<script>
+(() => {
+  const SEGS = [['all','All'],['chips','Chips'],['equipment','Equipment & materials'],['solar','Solar']];
+  const SEGNAME = {chips:'Chips',equipment:'Equipment & materials',solar:'Solar'};
+  const TEXT = ['symbol','name','segment'];
+  const compact = new Intl.NumberFormat('en',{notation:'compact',maximumFractionDigits:1});
+  const int = new Intl.NumberFormat('en');
+  const price = new Intl.NumberFormat('en',{minimumFractionDigits:2,maximumFractionDigits:2});
+  const pct = (v) => (v > 0 ? '+' : '') + (v * 100).toFixed(2) + '%';
+  const cap = (v) => v == null ? '—' : '$' + compact.format(v);
+  const $ = (id) => document.getElementById(id);
+  let all = [], seg = 'all', sortK = 'market_cap', dir = -1, q = '';
+  try { const h = location.hash.slice(1); if (SEGNAME[h]) seg = h; } catch (e) {}
+
+  SEGS.forEach(([k, l]) => {
+    const b = document.createElement('button'); b.type = 'button'; b.dataset.seg = k; b.textContent = l;
+    b.onclick = () => { seg = k; try { history.replaceState(null, '', k === 'all' ? location.pathname : '#' + k); } catch (e) {} draw(); };
+    $('seg').append(b);
+  });
+  $('q').addEventListener('input', (e) => { q = e.target.value.trim().toLowerCase(); drawTable(); });
+  document.querySelectorAll('th').forEach((th) => th.addEventListener('click', () => {
+    const k = th.dataset.k;
+    if (sortK === k) dir = -dir; else { sortK = k; dir = TEXT.includes(k) ? 1 : -1; }
+    drawTable();
+  }));
+
+  const rows = () => seg === 'all' ? all : all.filter((r) => r.seg === seg);
+
+  function drawTiles() {
+    const r = rows(), ch = r.map((x) => x.pct_change).filter((v) => v != null && isFinite(v));
+    const up = ch.filter((v) => v > 0).length, dn = ch.filter((v) => v < 0).length;
+    const avg = ch.length ? ch.reduce((a, b) => a + b, 0) / ch.length : null;
+    $('t-n').textContent = int.format(r.length);
+    $('t-up').textContent = int.format(up);
+    $('t-down').textContent = int.format(dn);
+    const a = $('t-avg'); a.textContent = avg == null ? '—' : pct(avg);
+    a.classList.toggle('pos', avg > 0); a.classList.toggle('neg', avg < 0);
+    $('t-cap').textContent = cap(r.reduce((s, x) => s + (x.market_cap || 0), 0));
+    $('take').textContent = int.format(up) + ' of ' + int.format(r.length) + ' stocks up, ' + int.format(dn) + ' down; average move ' + (avg == null ? '—' : pct(avg)) + ' on the day.';
+  }
+
+  function drawChart() {
+    const box = $('chart'); box.replaceChildren();
+    const v = rows().filter((r) => r.pct_change != null && isFinite(r.pct_change)).sort((a, b) => b.pct_change - a.pct_change);
+    const pick = v.length <= 16 ? v : v.slice(0, 8).concat(v.slice(-8));
+    if (!pick.length) return;
+    const NS = 'http://www.w3.org/2000/svg', W = Math.max(320, box.clientWidth || 700), rh = 24, H = pick.length * rh + 12;
+    const svg = document.createElementNS(NS, 'svg'); svg.setAttribute('viewBox', `0 0 ${W} ${H}`); box.append(svg);
+    const el = (n, at, txt) => { const e = document.createElementNS(NS, n); for (const k in at) e.setAttribute(k, at[k]); if (txt != null) e.textContent = txt; svg.append(e); return e; };
+    const probe = el('text', {x: -999, y: -999});
+    let lw = 0, vw = 0;
+    pick.forEach((r) => { probe.textContent = r.symbol; lw = Math.max(lw, probe.getComputedTextLength()); probe.textContent = pct(r.pct_change); vw = Math.max(vw, probe.getComputedTextLength() * 0.92); });
+    probe.remove();
+    const ext = Math.max(...pick.map((r) => Math.abs(r.pct_change))) || 0.01;
+    const x0 = lw + 14 + vw + 6, x1 = W - vw - 8, mid = (x0 + x1) / 2, sc = (x1 - x0) / 2 / ext;
+    el('line', {x1: mid, x2: mid, y1: 2, y2: H - 2, stroke: 'currentColor', 'stroke-opacity': .25});
+    pick.forEach((r, i) => {
+      const y = 6 + i * rh, bh = rh - 8, w = Math.max(1, Math.abs(r.pct_change) * sc), pos = r.pct_change >= 0;
+      el('text', {x: lw + 4, y: y + bh / 2, dy: '.35em', 'text-anchor': 'end'}, r.symbol);
+      const rect = el('rect', {x: pos ? mid : mid - w, y, width: w, height: bh, rx: 3, fill: pos ? 'var(--okbar)' : 'var(--badbar)'});
+      const t = document.createElementNS(NS, 'title'); t.textContent = r.name + ' · $' + price.format(r.last); rect.append(t);
+      el('text', {class: 'v', x: pos ? mid + w + 4 : mid - w - 4, y: y + bh / 2, dy: '.35em', 'text-anchor': pos ? 'start' : 'end'}, pct(r.pct_change));
+    });
+  }
+
+  function drawTable() {
+    document.querySelectorAll('th').forEach((th) => th.setAttribute('aria-sort', th.dataset.k === sortK ? (dir > 0 ? 'ascending' : 'descending') : 'none'));
+    const base = rows();
+    let list = q ? base.filter((r) => r.symbol.toLowerCase().includes(q) || (r.name || '').toLowerCase().includes(q)) : base.slice();
+    list.sort((a, b) => { const av = a[sortK], bv = b[sortK]; if (av == null) return 1; if (bv == null) return -1; return TEXT.includes(sortK) ? dir * String(av).localeCompare(String(bv)) : dir * (av - bv); });
+    $('count').textContent = int.format(list.length) + ' of ' + int.format(base.length) + ' stocks';
+    const tb = $('tb'), f = document.createDocumentFragment();
+    list.forEach((r) => {
+      const tr = document.createElement('tr');
+      const c = (t, cls) => { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = t; tr.append(td); };
+      c(r.symbol, 'sym'); c(r.name, 'nm'); c(r.segment, 'opt');
+      c(r.last == null ? '—' : price.format(r.last), 'num');
+      c(r.pct_change == null ? '—' : pct(r.pct_change), 'num ' + (r.pct_change > 0 ? 'pos' : r.pct_change < 0 ? 'neg' : ''));
+      c(cap(r.market_cap), 'num'); c(r.volume == null ? '—' : compact.format(r.volume), 'num opt');
+      f.append(tr);
+    });
+    tb.replaceChildren(f);
+  }
+
+  function draw() {
+    document.querySelectorAll('#seg button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.seg === seg)));
+    drawTiles(); drawChart(); drawTable();
+  }
+
+  fetch("data/semis.json", {cache: 'no-cache'}).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((d) => {
+    all = (d.rows || []).map((r) => ({...r, segment: SEGNAME[r.seg] || 'Chips'}));
+    if (d.updated) {
+      const t = new Date(d.updated);
+      $('stamp').textContent = 'Prices as of ' + t.toLocaleString('en-US', {dateStyle: 'medium', timeStyle: 'short', timeZone: 'America/New_York'}) + ' ET';
+    }
+    draw();
+    let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(drawChart, 150); });
+  }).catch(() => { $('take').textContent = 'The latest snapshot could not be loaded. Try again shortly.'; });
+})();
+</script>
+</body>
+</html>
