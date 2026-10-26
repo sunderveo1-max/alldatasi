@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-25T14:57:56+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-10-26T17:24:06+00:00",
+ "newCount": 3,
+ "newSummary": "META 424B5, META 424B5, META S-3ASR",
  "failures": [],
  "companies": [
   {
@@ -112,6 +112,33 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001193125-26-431043",
+   "ticker": "META",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-10-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431043/d133631d424b5.htm",
+   "addedOn": "2026-10-26"
+  },
+  {
+   "id": "0001193125-26-431040",
+   "ticker": "META",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-10-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431040/d94886d424b5.htm",
+   "addedOn": "2026-10-26"
+  },
+  {
+   "id": "0001193125-26-431009",
+   "ticker": "META",
+   "form": "S-3ASR",
+   "desc": "Shelf registration",
+   "date": "2026-10-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431009/d127909ds3asr.htm",
+   "addedOn": "2026-10-26"
+  },
   {
    "id": "0001628280-26-067100",
    "ticker": "WULF",
