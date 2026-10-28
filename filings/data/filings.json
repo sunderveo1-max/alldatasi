@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-27T16:42:26+00:00",
- "newCount": 1,
- "newSummary": "GLXY 8-K",
+ "generated": "2026-10-28T17:10:52+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -24,7 +24,7 @@
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 8
+   "insider30d": 14
   },
   {
    "ticker": "META",
@@ -38,7 +38,7 @@
    "name": "Oracle",
    "group": "hyperscaler",
    "note": "OCI",
-   "insider30d": 10
+   "insider30d": 14
   },
   {
    "ticker": "CRWV",
@@ -73,7 +73,7 @@
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 7
+   "insider30d": 8
   },
   {
    "ticker": "WULF",
