@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-29T17:26:50+00:00",
- "newCount": 11,
- "newSummary": "MSFT 424B2, MSFT 8-K, MSFT 10-Q, MSFT 8-K, GOOGL 10-Q, GOOGL 8-K, META 424B5, META 424B5, ORCL 8-K, IREN SCHEDULE 13G/A, CORZ SCHEDULE 13G",
+ "generated": "2026-10-30T17:01:33+00:00",
+ "newCount": 3,
+ "newSummary": "AMZN 10-Q, AMZN 8-K, META 8-K",
  "failures": [],
  "companies": [
   {
@@ -24,7 +24,7 @@
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 14
+   "insider30d": 8
   },
   {
    "ticker": "META",
@@ -80,7 +80,7 @@
    "name": "TeraWulf",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 4
+   "insider30d": 3
   },
   {
    "ticker": "CORZ",
@@ -113,6 +113,15 @@
  ],
  "filings": [
   {
+   "id": "0001018724-26-000040",
+   "ticker": "AMZN",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+   "addedOn": "2026-10-30"
+  },
+  {
    "id": "0001193125-26-437008",
    "ticker": "MSFT",
    "form": "424B2",
@@ -122,6 +131,15 @@
    "addedOn": "2026-10-29"
   },
   {
+   "id": "0001193125-26-438017",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526438017/d183592d8k.htm",
+   "addedOn": "2026-10-30"
+  },
+  {
    "id": "0001652044-26-000084",
    "ticker": "GOOGL",
    "form": "10-Q",
@@ -129,6 +147,15 @@
    "date": "2026-10-29",
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
    "addedOn": "2026-10-29"
+  },
+  {
+   "id": "0001018724-26-000038",
+   "ticker": "AMZN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm",
+   "addedOn": "2026-10-30"
   },
   {
    "id": "0001193125-26-435853",
@@ -5420,51 +5447,6 @@
    "desc": "Current report",
    "date": "2025-10-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20251030.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-103439",
-   "ticker": "WULF",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-29",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925103439/tm2529509d2_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-256321",
-   "ticker": "MSFT",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-10-29",
-   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-256310",
-   "ticker": "MSFT",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-29",
-   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-20251028.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001628280-25-047114",
-   "ticker": "META",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-29",
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-20251029.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001652044-25-000087",
-   "ticker": "GOOGL",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-29",
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/goog-20251029.htm",
    "addedOn": ""
   }
  ]
