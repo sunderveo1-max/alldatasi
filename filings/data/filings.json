@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-10-30T17:01:33+00:00",
- "newCount": 3,
- "newSummary": "AMZN 10-Q, AMZN 8-K, META 8-K",
+ "generated": "2026-10-31T16:07:16+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -24,14 +24,14 @@
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 8
+   "insider30d": 9
   },
   {
    "ticker": "META",
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 6
+   "insider30d": 5
   },
   {
    "ticker": "ORCL",
@@ -45,14 +45,14 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 15
+   "insider30d": 16
   },
   {
    "ticker": "NBIS",
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 12
+   "insider30d": 13
   },
   {
    "ticker": "IREN",
@@ -73,7 +73,7 @@
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "WULF",
@@ -87,7 +87,7 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "GLXY",
@@ -101,7 +101,7 @@
    "name": "Hut 8",
    "group": "neocloud",
    "note": "AI data centers",
-   "insider30d": 1
+   "insider30d": 0
   },
   {
    "ticker": "NSCL",
@@ -5357,96 +5357,6 @@
    "desc": "Quarterly report",
    "date": "2025-10-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-103923",
-   "ticker": "WULF",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-30",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925103923/tm2529509d3_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-257437",
-   "ticker": "META",
-   "form": "424B2",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-10-30",
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525257437/d762778d424b2.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001628280-25-047240",
-   "ticker": "META",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-10-30",
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001652044-25-000091",
-   "ticker": "GOOGL",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-10-30",
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000950103-25-013968",
-   "ticker": "GLXY",
-   "form": "424B3",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-10-30",
-   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000095010325013968/dp236485_424b3.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000950103-25-013949",
-   "ticker": "GLXY",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-30",
-   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000095010325013949/dp236467_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-039864",
-   "ticker": "CORZ",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-30",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125039864/ef20057996_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-039808",
-   "ticker": "CORZ",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-30",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125039808/ef20057995_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-039804",
-   "ticker": "CORZ",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-30",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125039804/ef20057993_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001018724-25-000121",
-   "ticker": "AMZN",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-30",
-   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20251030.htm",
    "addedOn": ""
   }
  ]
