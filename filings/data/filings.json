@@ -1,6 +1,6 @@
 {
  "source": "edgar",
- "generated": "2026-10-31T16:07:16+00:00",
+ "generated": "2026-11-01T17:07:59+00:00",
  "newCount": 0,
  "newSummary": "",
  "failures": [],
@@ -38,21 +38,21 @@
    "name": "Oracle",
    "group": "hyperscaler",
    "note": "OCI",
-   "insider30d": 14
+   "insider30d": 13
   },
   {
    "ticker": "CRWV",
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 16
+   "insider30d": 15
   },
   {
    "ticker": "NBIS",
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 13
+   "insider30d": 12
   },
   {
    "ticker": "IREN",
@@ -5294,69 +5294,6 @@
    "desc": "Current report",
    "date": "2025-11-03",
    "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000110/cifr-20251103.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-104928",
-   "ticker": "WULF",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-31",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925104928/tm2529894d1_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-260521",
-   "ticker": "MSFT",
-   "form": "DEFA14A",
-   "desc": "Additional proxy materials",
-   "date": "2025-10-31",
-   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525260521/d939503ddefa14a.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000950103-25-014006",
-   "ticker": "CRWV",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-31",
-   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000095010325014006/dp236631_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001011438-25-000487",
-   "ticker": "CORZ",
-   "form": "SCHEDULE 13D/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-10-31",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000101143825000487/xslSCHEDULE_13D_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-040020",
-   "ticker": "CORZ",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-10-31",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000114036125040020/ef20058085_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-020389",
-   "ticker": "APLD",
-   "form": "S-3ASR",
-   "desc": "Shelf registration",
-   "date": "2025-10-31",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225020389/forms-3asr.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001018724-25-000123",
-   "ticker": "AMZN",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-10-31",
-   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
    "addedOn": ""
   }
  ]
