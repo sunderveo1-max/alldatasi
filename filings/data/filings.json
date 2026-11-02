@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-01T17:07:59+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-11-02T20:47:58+00:00",
+ "newCount": 7,
+ "newSummary": "MSFT 424B2, GOOGL 424B5, ORCL 424B5, ORCL 424B2, ORCL S-3ASR, CIFR 10-Q, CIFR 8-K",
  "failures": [],
  "companies": [
   {
@@ -24,7 +24,7 @@
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 9
+   "insider30d": 8
   },
   {
    "ticker": "META",
@@ -45,14 +45,14 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 15
+   "insider30d": 7
   },
   {
    "ticker": "NBIS",
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 12
+   "insider30d": 13
   },
   {
    "ticker": "IREN",
@@ -73,14 +73,14 @@
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 7
+   "insider30d": 3
   },
   {
    "ticker": "WULF",
    "name": "TeraWulf",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 3
+   "insider30d": 0
   },
   {
    "ticker": "CORZ",
@@ -112,6 +112,69 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001193125-26-442729",
+   "ticker": "ORCL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm",
+   "addedOn": "2026-11-02"
+  },
+  {
+   "id": "0001193125-26-442722",
+   "ticker": "ORCL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442722/d181336d424b2.htm",
+   "addedOn": "2026-11-02"
+  },
+  {
+   "id": "0001193125-26-442669",
+   "ticker": "ORCL",
+   "form": "S-3ASR",
+   "desc": "Shelf registration",
+   "date": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442669/d181173ds3asr.htm",
+   "addedOn": "2026-11-02"
+  },
+  {
+   "id": "0001193125-26-442618",
+   "ticker": "MSFT",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526442618/d150456d424b2.htm",
+   "addedOn": "2026-11-02"
+  },
+  {
+   "id": "0001193125-26-442515",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442515/d125079d424b5.htm",
+   "addedOn": "2026-11-02"
+  },
+  {
+   "id": "0001819989-26-000050",
+   "ticker": "CIFR",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+   "addedOn": "2026-11-02"
+  },
+  {
+   "id": "0001819989-26-000047",
+   "ticker": "CIFR",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000047/cifr-20261102.htm",
+   "addedOn": "2026-11-02"
+  },
   {
    "id": "0001018724-26-000040",
    "ticker": "AMZN",
