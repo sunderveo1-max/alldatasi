@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-02T20:47:58+00:00",
- "newCount": 7,
- "newSummary": "MSFT 424B2, GOOGL 424B5, ORCL 424B5, ORCL 424B2, ORCL S-3ASR, CIFR 10-Q, CIFR 8-K",
+ "generated": "2026-11-03T18:27:53+00:00",
+ "newCount": 1,
+ "newSummary": "META 424B5",
  "failures": [],
  "companies": [
   {
@@ -94,7 +94,7 @@
    "name": "Galaxy Digital",
    "group": "neocloud",
    "note": "Helios AI campus",
-   "insider30d": 0
+   "insider30d": 1
   },
   {
    "ticker": "HUT",
@@ -112,6 +112,15 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001193125-26-444440",
+   "ticker": "META",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526444440/d135326d424b5.htm",
+   "addedOn": "2026-11-03"
+  },
   {
    "id": "0001193125-26-442729",
    "ticker": "ORCL",
