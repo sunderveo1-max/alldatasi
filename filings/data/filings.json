@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-03T18:27:53+00:00",
- "newCount": 1,
- "newSummary": "META 424B5",
+ "generated": "2026-11-04T18:39:28+00:00",
+ "newCount": 6,
+ "newSummary": "META 424B5, ORCL 424B5, ORCL 424B2, WULF 8-K, HUT 8-K, HUT 10-Q",
  "failures": [],
  "companies": [
   {
@@ -112,6 +112,60 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001628280-26-069810",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/wulf-20261104.htm",
+   "addedOn": "2026-11-04"
+  },
+  {
+   "id": "0001193125-26-445847",
+   "ticker": "ORCL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445847/d181425d424b5.htm",
+   "addedOn": "2026-11-04"
+  },
+  {
+   "id": "0001193125-26-445846",
+   "ticker": "ORCL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445846/d181336d424b2.htm",
+   "addedOn": "2026-11-04"
+  },
+  {
+   "id": "0001193125-26-446110",
+   "ticker": "META",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526446110/d44678d424b5.htm",
+   "addedOn": "2026-11-04"
+  },
+  {
+   "id": "0001104659-26-122347",
+   "ticker": "HUT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926122347/tm2628741d1_8k.htm",
+   "addedOn": "2026-11-04"
+  },
+  {
+   "id": "0001193125-26-446146",
+   "ticker": "HUT",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000119312526446146/hut-20260930.htm",
+   "addedOn": "2026-11-04"
+  },
   {
    "id": "0001193125-26-444440",
    "ticker": "META",
@@ -5294,78 +5348,6 @@
    "desc": "Beneficial ownership report (amendment)",
    "date": "2025-11-04",
    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225020786/xslSCHEDULE_13D_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-262593",
-   "ticker": "META",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-03",
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/d75422d8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-261217",
-   "ticker": "META",
-   "form": "424B2",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-11-03",
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525261217/d762778d424b2.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-040072",
-   "ticker": "IREN",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-03",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125040072/ef20058139_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-261740",
-   "ticker": "GOOGL",
-   "form": "424B5",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-11-03",
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525261740/d64361d424b5.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-261546",
-   "ticker": "GOOGL",
-   "form": "424B5",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-11-03",
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525261546/d65573d424b5.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000935836-25-000647",
-   "ticker": "CORZ",
-   "form": "SCHEDULE 13G",
-   "desc": "Beneficial ownership report",
-   "date": "2025-11-03",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000093583625000647/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001819989-25-000112",
-   "ticker": "CIFR",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-11-03",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000112/cifr-20250930.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001819989-25-000110",
-   "ticker": "CIFR",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-03",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998925000110/cifr-20251103.htm",
    "addedOn": ""
   }
  ]
