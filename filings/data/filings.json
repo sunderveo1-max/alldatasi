@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-04T18:39:28+00:00",
- "newCount": 6,
- "newSummary": "META 424B5, ORCL 424B5, ORCL 424B2, WULF 8-K, HUT 8-K, HUT 10-Q",
+ "generated": "2026-11-05T18:45:54+00:00",
+ "newCount": 9,
+ "newSummary": "MSFT 8-K, MSFT 8-K, GOOGL 424B2, META 424B5, ORCL 8-K, CIFR SCHEDULE 13D/A, CORZ 10-Q, CORZ 8-K, GLXY SCHEDULE 13G/A",
  "failures": [],
  "companies": [
   {
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 5
+   "insider30d": 7
   },
   {
    "ticker": "ORCL",
@@ -52,7 +52,7 @@
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 13
+   "insider30d": 10
   },
   {
    "ticker": "IREN",
@@ -66,14 +66,14 @@
    "name": "Applied Digital",
    "group": "neocloud",
    "note": "HPC data centers",
-   "insider30d": 5
+   "insider30d": 4
   },
   {
    "ticker": "CIFR",
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 3
+   "insider30d": 4
   },
   {
    "ticker": "WULF",
@@ -87,7 +87,7 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 7
+   "insider30d": 6
   },
   {
    "ticker": "GLXY",
@@ -113,6 +113,51 @@
  ],
  "filings": [
   {
+   "id": "0001193125-26-448357",
+   "ticker": "MSFT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526448357/d177209d8k.htm",
+   "addedOn": "2026-11-05"
+  },
+  {
+   "id": "0001193125-26-448015",
+   "ticker": "META",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526448015/d135326d424b5.htm",
+   "addedOn": "2026-11-05"
+  },
+  {
+   "id": "0000315066-26-002756",
+   "ticker": "GLXY",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000031506626002756/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-05"
+  },
+  {
+   "id": "0001839341-26-000030",
+   "ticker": "CORZ",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000030/core-20260930.htm",
+   "addedOn": "2026-11-05"
+  },
+  {
+   "id": "0001839341-26-000028",
+   "ticker": "CORZ",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000028/core-20261105.htm",
+   "addedOn": "2026-11-05"
+  },
+  {
    "id": "0001628280-26-069810",
    "ticker": "WULF",
    "form": "8-K",
@@ -120,6 +165,15 @@
    "date": "2026-11-04",
    "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/wulf-20261104.htm",
    "addedOn": "2026-11-04"
+  },
+  {
+   "id": "0001193125-26-447507",
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm",
+   "addedOn": "2026-11-05"
   },
   {
    "id": "0001193125-26-445847",
@@ -138,6 +192,15 @@
    "date": "2026-11-04",
    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445846/d181336d424b2.htm",
    "addedOn": "2026-11-04"
+  },
+  {
+   "id": "0001193125-26-447173",
+   "ticker": "MSFT",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526447173/d178557d8k.htm",
+   "addedOn": "2026-11-05"
   },
   {
    "id": "0001193125-26-446110",
@@ -165,6 +228,24 @@
    "date": "2026-11-04",
    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000119312526446146/hut-20260930.htm",
    "addedOn": "2026-11-04"
+  },
+  {
+   "id": "0001193125-26-447343",
+   "ticker": "GOOGL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526447343/d125079d424b2.htm",
+   "addedOn": "2026-11-05"
+  },
+  {
+   "id": "0001123292-26-001459",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329226001459/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": "2026-11-05"
   },
   {
    "id": "0001193125-26-444440",
@@ -5303,51 +5384,6 @@
    "desc": "Beneficial ownership report (amendment)",
    "date": "2025-11-05",
    "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329225000612/xslSCHEDULE_13D_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-105883",
-   "ticker": "HUT",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-04",
-   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465925105883/hut-20251104x8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-105874",
-   "ticker": "HUT",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-11-04",
-   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465925105874/hut-20250930x10q.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000950103-25-014195",
-   "ticker": "CIFR",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-04",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325014195/dp236869_8k-launch.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000950103-25-014194",
-   "ticker": "CIFR",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-04",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325014194/dp236870_8k-financials.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-020786",
-   "ticker": "APLD",
-   "form": "SCHEDULE 13D/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-11-04",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225020786/xslSCHEDULE_13D_X01/primary_doc.xml",
    "addedOn": ""
   }
  ]
