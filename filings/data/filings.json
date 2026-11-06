@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-05T18:45:54+00:00",
- "newCount": 9,
- "newSummary": "MSFT 8-K, MSFT 8-K, GOOGL 424B2, META 424B5, ORCL 8-K, CIFR SCHEDULE 13D/A, CORZ 10-Q, CORZ 8-K, GLXY SCHEDULE 13G/A",
+ "generated": "2026-11-06T17:59:10+00:00",
+ "newCount": 7,
+ "newSummary": "GOOGL 8-K, META 424B5, META 8-K, IREN 10-Q, IREN 8-K, APLD 8-K, WULF 8-K",
  "failures": [],
  "companies": [
   {
@@ -52,7 +52,7 @@
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 10
+   "insider30d": 9
   },
   {
    "ticker": "IREN",
@@ -66,7 +66,7 @@
    "name": "Applied Digital",
    "group": "neocloud",
    "note": "HPC data centers",
-   "insider30d": 4
+   "insider30d": 9
   },
   {
    "ticker": "CIFR",
@@ -94,7 +94,7 @@
    "name": "Galaxy Digital",
    "group": "neocloud",
    "note": "Helios AI campus",
-   "insider30d": 1
+   "insider30d": 3
   },
   {
    "ticker": "HUT",
@@ -113,6 +113,33 @@
  ],
  "filings": [
   {
+   "id": "0001628280-26-071306",
+   "ticker": "WULF",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/wulf-20261106.htm",
+   "addedOn": "2026-11-06"
+  },
+  {
+   "id": "0001193125-26-450754",
+   "ticker": "META",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
+   "addedOn": "2026-11-06"
+  },
+  {
+   "id": "0001144879-26-000063",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000063/apld-20261104.htm",
+   "addedOn": "2026-11-06"
+  },
+  {
    "id": "0001193125-26-448357",
    "ticker": "MSFT",
    "form": "8-K",
@@ -122,6 +149,15 @@
    "addedOn": "2026-11-05"
   },
   {
+   "id": "0001193125-26-450074",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
+   "addedOn": "2026-11-06"
+  },
+  {
    "id": "0001193125-26-448015",
    "ticker": "META",
    "form": "424B5",
@@ -129,6 +165,33 @@
    "date": "2026-11-05",
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526448015/d135326d424b5.htm",
    "addedOn": "2026-11-05"
+  },
+  {
+   "id": "0001878848-26-000066",
+   "ticker": "IREN",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+   "addedOn": "2026-11-06"
+  },
+  {
+   "id": "0001878848-26-000065",
+   "ticker": "IREN",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/iren-20261105.htm",
+   "addedOn": "2026-11-06"
+  },
+  {
+   "id": "0001193125-26-449835",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+   "addedOn": "2026-11-06"
   },
   {
    "id": "0000315066-26-002756",
@@ -5348,42 +5411,6 @@
    "desc": "Current report",
    "date": "2025-11-06",
    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000095/apld-20251105.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-267270",
-   "ticker": "MSFT",
-   "form": "DEFA14A",
-   "desc": "Additional proxy materials",
-   "date": "2025-11-05",
-   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525267270/d87183ddefa14a.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-267244",
-   "ticker": "GOOGL",
-   "form": "424B2",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-11-05",
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525267244/d64361d424b2.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-267232",
-   "ticker": "GOOGL",
-   "form": "424B2",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-11-05",
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525267232/d65573d424b2.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001123292-25-000612",
-   "ticker": "CIFR",
-   "form": "SCHEDULE 13D/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-11-05",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329225000612/xslSCHEDULE_13D_X01/primary_doc.xml",
    "addedOn": ""
   }
  ]
