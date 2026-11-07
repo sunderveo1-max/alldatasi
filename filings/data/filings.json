@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-06T17:59:10+00:00",
- "newCount": 7,
- "newSummary": "GOOGL 8-K, META 424B5, META 8-K, IREN 10-Q, IREN 8-K, APLD 8-K, WULF 8-K",
+ "generated": "2026-11-07T16:50:39+00:00",
+ "newCount": 3,
+ "newSummary": "WULF 10-Q, CORZ SCHEDULE 13G/A, GLXY SCHEDULE 13G/A",
  "failures": [],
  "companies": [
   {
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 7
+   "insider30d": 8
   },
   {
    "ticker": "NBIS",
@@ -73,7 +73,7 @@
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 4
+   "insider30d": 3
   },
   {
    "ticker": "WULF",
@@ -87,7 +87,7 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 6
+   "insider30d": 5
   },
   {
    "ticker": "GLXY",
@@ -113,6 +113,15 @@
  ],
  "filings": [
   {
+   "id": "0001628280-26-071671",
+   "ticker": "WULF",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071671/wulf-20260930.htm",
+   "addedOn": "2026-11-07"
+  },
+  {
    "id": "0001628280-26-071306",
    "ticker": "WULF",
    "form": "8-K",
@@ -129,6 +138,24 @@
    "date": "2026-11-06",
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
    "addedOn": "2026-11-06"
+  },
+  {
+   "id": "0001595888-26-000154",
+   "ticker": "GLXY",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000159588826000154/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-07"
+  },
+  {
+   "id": "0001595888-26-000141",
+   "ticker": "CORZ",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000159588826000141/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-07"
   },
   {
    "id": "0001144879-26-000063",
@@ -5366,51 +5393,6 @@
    "desc": "Current report",
    "date": "2025-11-10",
    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225021400/form8-k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001878848-25-000081",
-   "ticker": "IREN",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-11-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884825000081/iren-20250930.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001878848-25-000079",
-   "ticker": "IREN",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884825000079/iren-20251106.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-269979",
-   "ticker": "GOOGL",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525269979/d56115d8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000950103-25-014401",
-   "ticker": "CIFR",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325014401/dp237015_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001144879-25-000095",
-   "ticker": "APLD",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-06",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000095/apld-20251105.htm",
    "addedOn": ""
   }
  ]
