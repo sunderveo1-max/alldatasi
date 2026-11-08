@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-07T16:50:39+00:00",
- "newCount": 3,
- "newSummary": "WULF 10-Q, CORZ SCHEDULE 13G/A, GLXY SCHEDULE 13G/A",
+ "generated": "2026-11-08T17:05:11+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 8
+   "insider30d": 6
   },
   {
    "ticker": "NBIS",
