@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-08T17:05:11+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-11-09T21:26:58+00:00",
+ "newCount": 1,
+ "newSummary": "GLXY 10-Q",
  "failures": [],
  "companies": [
   {
@@ -112,6 +112,15 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001859392-26-000112",
+   "ticker": "GLXY",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-11-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000112/glxy-20260930.htm",
+   "addedOn": "2026-11-09"
+  },
   {
    "id": "0001628280-26-071671",
    "ticker": "WULF",
