@@ -203,9 +203,21 @@ footer{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;paddin
 <div>
 <p class="muted" style="margin-top:0">The student picks the model live. The tools, the privacy rules and the records stay the same; only the model that writes the answer changes.</p>
 <p class="muted">Embeddings always run locally (<code>bge-small-en-v1.5</code>, baked into the image), so the handbook and questions are never sent anywhere to be embedded. For the self-hosted model, thinking is off and handbook sections are retrieved before generation, which smaller models handle more reliably than searching for themselves.</p>
-<p class="muted">On a CPU-only workstation, Gemma 4 12B takes one to two minutes per answer. A GPU or data-centre endpoint (vLLM, TGI, NIM) brings that down to a few seconds. The Claude answer above took 11 seconds.</p>
+<p class="muted">The self-hosted model doesn't need a data centre. On a mini PC's built-in Radeon 780M graphics, Gemma 4 12B starts answering in under ten seconds and finishes in about twenty. The answer streams in as it's written, so the student reads while the model writes. The Claude answer above took 11 seconds.</p>
 </div>
 </div>
+
+<div class="tablewrap" style="margin-top:32px">
+<table>
+<caption style="caption-side:bottom;text-align:left;padding:12px 14px;font-size:14px;color:var(--muted)">Gemma 4 12B (Q4) on a Ryzen 7 8745HS mini PC with Ollama, same student, one run each. "Text appears" is when the first words of the answer show on screen.</caption>
+<thead><tr><th>Question</th><th>CPU only, before tuning</th><th>CPU, streamed and trimmed</th><th>Radeon 780M graphics</th></tr></thead>
+<tbody>
+<tr><td style="white-space:normal;min-width:180px">"How am I doing in my classes this term?"</td><td>141 s</td><td>text appears at 26 s, done at 46 s</td><td><strong style="color:var(--ink)">text appears at 9.5 s, done at 20 s</strong></td></tr>
+<tr><td style="white-space:normal;min-width:180px">"What happens if my GPA drops below 2.0?"</td><td>73 s</td><td>text appears at 18 s, done at 33 s</td><td><strong style="color:var(--ink)">text appears at 5.6 s, done at 17 s</strong></td></tr>
+</tbody>
+</table>
+</div>
+<p class="muted" style="font-size:15px;margin-top:16px">The tuning: the model reads the fixed system prompt and tool definitions once at startup and keeps them cached, fewer handbook sections go into each prompt, and record lookups are sent as compact JSON. The integrated graphics read prompts about five times faster than the CPU (about 150 tokens a second against 30). Writing speed barely changes (about 14 tokens a second against 11), because the graphics share the CPU's memory and writing is limited by memory speed. A dedicated GPU or a data-centre endpoint (vLLM, TGI, NIM) speeds up both.</p>
 </section>
 
 <section id="data">
