@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-09T21:26:58+00:00",
+ "generated": "2026-11-10T18:41:26+00:00",
  "newCount": 1,
- "newSummary": "GLXY 10-Q",
+ "newSummary": "MSFT DEFA14A",
  "failures": [],
  "companies": [
   {
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 2
+   "insider30d": 3
   },
   {
    "ticker": "AMZN",
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 6
+   "insider30d": 7
   },
   {
    "ticker": "NBIS",
@@ -112,6 +112,15 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001193125-26-453698",
+   "ticker": "MSFT",
+   "form": "DEFA14A",
+   "desc": "Additional proxy materials",
+   "date": "2026-11-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526453698/d136896ddefa14a.htm",
+   "addedOn": "2026-11-10"
+  },
   {
    "id": "0001859392-26-000112",
    "ticker": "GLXY",
