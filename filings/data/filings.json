@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-10T18:41:26+00:00",
- "newCount": 1,
- "newSummary": "MSFT DEFA14A",
+ "generated": "2026-11-11T18:42:39+00:00",
+ "newCount": 2,
+ "newSummary": "CRWV 8-K, IREN SCHEDULE 13G/A",
  "failures": [],
  "companies": [
   {
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 3
+   "insider30d": 4
   },
   {
    "ticker": "AMZN",
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 7
+   "insider30d": 8
   },
   {
    "ticker": "NBIS",
@@ -94,7 +94,7 @@
    "name": "Galaxy Digital",
    "group": "neocloud",
    "note": "Helios AI campus",
-   "insider30d": 3
+   "insider30d": 4
   },
   {
    "ticker": "HUT",
@@ -112,6 +112,24 @@
   }
  ],
  "filings": [
+  {
+   "id": "0000886982-26-000620",
+   "ticker": "IREN",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000088698226000620/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-11"
+  },
+  {
+   "id": "0001769628-26-000461",
+   "ticker": "CRWV",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/crwv-20261110.htm",
+   "addedOn": "2026-11-11"
+  },
   {
    "id": "0001193125-26-453698",
    "ticker": "MSFT",
@@ -5339,78 +5357,6 @@
    "desc": "Current report",
    "date": "2025-11-12",
    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225021955/form8-k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001083301-25-000099",
-   "ticker": "WULF",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-11-10",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330125000099/wulf-20250930.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001083301-25-000096",
-   "ticker": "WULF",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-10",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330125000096/wulf-20251110.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001859392-25-000084",
-   "ticker": "GLXY",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-10",
-   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000084/glxy-20251110.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001859392-25-000083",
-   "ticker": "GLXY",
-   "form": "424B3",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-11-10",
-   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000083/a424b3-q3202510xq.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001859392-25-000082",
-   "ticker": "GLXY",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-11-10",
-   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000082/glxy-20250930.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001769628-25-000059",
-   "ticker": "CRWV",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-10",
-   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000059/crwv-20251110.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-021404",
-   "ticker": "APLD",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-10",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225021404/form8-k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-021400",
-   "ticker": "APLD",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-10",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225021400/form8-k.htm",
    "addedOn": ""
   }
  ]
