@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-11T18:42:39+00:00",
+ "generated": "2026-11-12T18:57:14+00:00",
  "newCount": 2,
- "newSummary": "CRWV 8-K, IREN SCHEDULE 13G/A",
+ "newSummary": "CRWV 10-Q, NBIS 6-K",
  "failures": [],
  "companies": [
   {
@@ -112,6 +112,24 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001104659-26-126008",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_6k.htm",
+   "addedOn": "2026-11-12"
+  },
+  {
+   "id": "0001769628-26-000465",
+   "ticker": "CRWV",
+   "form": "10-Q",
+   "desc": "Quarterly report",
+   "date": "2026-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+   "addedOn": "2026-11-12"
+  },
   {
    "id": "0000886982-26-000620",
    "ticker": "IREN",
