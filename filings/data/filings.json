@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-12T18:57:14+00:00",
- "newCount": 2,
- "newSummary": "CRWV 10-Q, NBIS 6-K",
+ "generated": "2026-11-13T18:32:04+00:00",
+ "newCount": 5,
+ "newSummary": "AMZN SCHEDULE 13G, META 8-K, NBIS 6-K, APLD SCHEDULE 13G/A, NSCL S-1/A",
  "failures": [],
  "companies": [
   {
@@ -10,14 +10,14 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 4
+   "insider30d": 5
   },
   {
    "ticker": "AMZN",
    "name": "Amazon",
    "group": "hyperscaler",
    "note": "AWS",
-   "insider30d": 1
+   "insider30d": 2
   },
   {
    "ticker": "GOOGL",
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 7
+   "insider30d": 9
   },
   {
    "ticker": "ORCL",
@@ -52,7 +52,7 @@
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 9
+   "insider30d": 8
   },
   {
    "ticker": "IREN",
@@ -66,7 +66,7 @@
    "name": "Applied Digital",
    "group": "neocloud",
    "note": "HPC data centers",
-   "insider30d": 9
+   "insider30d": 8
   },
   {
    "ticker": "CIFR",
@@ -87,7 +87,7 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 5
+   "insider30d": 6
   },
   {
    "ticker": "GLXY",
@@ -113,6 +113,24 @@
  ],
  "filings": [
   {
+   "id": "0001193125-26-458722",
+   "ticker": "NSCL",
+   "form": "S-1/A",
+   "desc": "IPO registration statement (amendment)",
+   "date": "2026-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+   "addedOn": "2026-11-13"
+  },
+  {
+   "id": "0001104659-26-126238",
+   "ticker": "NBIS",
+   "form": "6-K",
+   "desc": "Current report of foreign issuer",
+   "date": "2026-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-20261112x6k.htm",
+   "addedOn": "2026-11-13"
+  },
+  {
    "id": "0001104659-26-126008",
    "ticker": "NBIS",
    "form": "6-K",
@@ -122,6 +140,15 @@
    "addedOn": "2026-11-12"
   },
   {
+   "id": "0001193125-26-458525",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+   "addedOn": "2026-11-13"
+  },
+  {
    "id": "0001769628-26-000465",
    "ticker": "CRWV",
    "form": "10-Q",
@@ -129,6 +156,24 @@
    "date": "2026-11-12",
    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
    "addedOn": "2026-11-12"
+  },
+  {
+   "id": "0001595888-26-000168",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000159588826000168/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-13"
+  },
+  {
+   "id": "0001104659-26-126255",
+   "ticker": "AMZN",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926126255/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-13"
   },
   {
    "id": "0000886982-26-000620",
@@ -5312,69 +5357,6 @@
    "desc": "Beneficial ownership report (amendment)",
    "date": "2025-11-13",
    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000159588825000146/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001595888-25-000142",
-   "ticker": "WULF",
-   "form": "SCHEDULE 13G",
-   "desc": "Beneficial ownership report",
-   "date": "2025-11-12",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000159588825000142/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-110028",
-   "ticker": "NBIS",
-   "form": "6-K",
-   "desc": "Current report of foreign issuer",
-   "date": "2025-11-12",
-   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925110028/tm2530882d3_6k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-110025",
-   "ticker": "NBIS",
-   "form": "424B5",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-11-12",
-   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925110025/tm2530771-1_424b5.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-109806",
-   "ticker": "NBIS",
-   "form": "6-K",
-   "desc": "Current report of foreign issuer",
-   "date": "2025-11-12",
-   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925109806/tm2530882d1_6k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-109803",
-   "ticker": "NBIS",
-   "form": "6-K",
-   "desc": "Current report of foreign issuer",
-   "date": "2025-11-12",
-   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925109803/tm2530882d2_6k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000312069-25-000590",
-   "ticker": "CORZ",
-   "form": "SCHEDULE 13G",
-   "desc": "Beneficial ownership report",
-   "date": "2025-11-12",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000031206925000590/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-021955",
-   "ticker": "APLD",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-12",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225021955/form8-k.htm",
    "addedOn": ""
   }
  ]
