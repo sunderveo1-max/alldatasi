@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-13T18:32:04+00:00",
- "newCount": 5,
- "newSummary": "AMZN SCHEDULE 13G, META 8-K, NBIS 6-K, APLD SCHEDULE 13G/A, NSCL S-1/A",
+ "generated": "2026-11-14T17:09:41+00:00",
+ "newCount": 4,
+ "newSummary": "CIFR SCHEDULE 13G/A, WULF SCHEDULE 13G/A, HUT SCHEDULE 13D/A, HUT SCHEDULE 13G",
  "failures": [],
  "companies": [
   {
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 5
+   "insider30d": 4
   },
   {
    "ticker": "AMZN",
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 9
+   "insider30d": 8
   },
   {
    "ticker": "ORCL",
@@ -45,14 +45,14 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "NBIS",
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 8
+   "insider30d": 9
   },
   {
    "ticker": "IREN",
@@ -101,7 +101,7 @@
    "name": "Hut 8",
    "group": "neocloud",
    "note": "AI data centers",
-   "insider30d": 0
+   "insider30d": 1
   },
   {
    "ticker": "NSCL",
@@ -112,6 +112,42 @@
   }
  ],
  "filings": [
+  {
+   "id": "0000895421-26-000340",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000089542126000340/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-14"
+  },
+  {
+   "id": "0001104659-26-127278",
+   "ticker": "HUT",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926127278/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": "2026-11-14"
+  },
+  {
+   "id": "0000895421-26-000326",
+   "ticker": "HUT",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000089542126000326/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-14"
+  },
+  {
+   "id": "0000895421-26-000346",
+   "ticker": "CIFR",
+   "form": "SCHEDULE 13G/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-11-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000089542126000346/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-14"
+  },
   {
    "id": "0001193125-26-458722",
    "ticker": "NSCL",
@@ -5258,105 +5294,6 @@
    "desc": "Current report",
    "date": "2025-11-14",
    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225022506/form8-k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-110831",
-   "ticker": "NBIS",
-   "form": "6-K",
-   "desc": "Current report of foreign issuer",
-   "date": "2025-11-13",
-   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925110831/tm2531034d1_6k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001595888-25-000152",
-   "ticker": "IREN",
-   "form": "SCHEDULE 13G/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-11-13",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000159588825000152/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001446580-25-000116",
-   "ticker": "IREN",
-   "form": "SCHEDULE 13G",
-   "desc": "Beneficial ownership report",
-   "date": "2025-11-13",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000144658025000116/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001446580-25-000115",
-   "ticker": "HUT",
-   "form": "SCHEDULE 13G",
-   "desc": "Beneficial ownership report",
-   "date": "2025-11-13",
-   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000144658025000115/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001595888-25-000153",
-   "ticker": "CRWV",
-   "form": "SCHEDULE 13G/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-11-13",
-   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000159588825000153/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001769628-25-000062",
-   "ticker": "CRWV",
-   "form": "10-Q",
-   "desc": "Quarterly report",
-   "date": "2025-11-13",
-   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000062/crwv-20250930.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0002068602-25-000002",
-   "ticker": "CRWV",
-   "form": "SCHEDULE 13G/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-11-13",
-   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000206860225000002/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001446580-25-000112",
-   "ticker": "CORZ",
-   "form": "SCHEDULE 13G/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-11-13",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000144658025000112/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001446580-25-000110",
-   "ticker": "CIFR",
-   "form": "SCHEDULE 13G",
-   "desc": "Beneficial ownership report",
-   "date": "2025-11-13",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000144658025000110/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0000950103-25-014692",
-   "ticker": "CIFR",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-13",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325014692/dp237330_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001595888-25-000146",
-   "ticker": "APLD",
-   "form": "SCHEDULE 13G/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-11-13",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000159588825000146/xslSCHEDULE_13G_X01/primary_doc.xml",
    "addedOn": ""
   }
  ]
