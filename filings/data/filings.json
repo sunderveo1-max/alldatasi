@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-14T17:09:41+00:00",
- "newCount": 4,
- "newSummary": "CIFR SCHEDULE 13G/A, WULF SCHEDULE 13G/A, HUT SCHEDULE 13D/A, HUT SCHEDULE 13G",
+ "generated": "2026-11-15T17:43:51+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -10,7 +10,7 @@
    "name": "Microsoft",
    "group": "hyperscaler",
    "note": "Azure",
-   "insider30d": 4
+   "insider30d": 3
   },
   {
    "ticker": "AMZN",
@@ -24,7 +24,7 @@
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "META",
@@ -66,14 +66,14 @@
    "name": "Applied Digital",
    "group": "neocloud",
    "note": "HPC data centers",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "CIFR",
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 3
+   "insider30d": 2
   },
   {
    "ticker": "WULF",
@@ -5258,42 +5258,6 @@
    "desc": "Prospectus (securities offering)",
    "date": "2025-11-17",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925112970/tm2530638-1_424b5.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000940594-25-000015",
-   "ticker": "NBIS",
-   "form": "SCHEDULE 13G/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-11-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000094059425000015/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0002069723-25-000004",
-   "ticker": "CRWV",
-   "form": "SCHEDULE 13G",
-   "desc": "Beneficial ownership report",
-   "date": "2025-11-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000206972325000004/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0000902664-25-005059",
-   "ticker": "CORZ",
-   "form": "SCHEDULE 13G",
-   "desc": "Beneficial ownership report",
-   "date": "2025-11-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000090266425005059/xslSCHEDULE_13G_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-022506",
-   "ticker": "APLD",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-14",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225022506/form8-k.htm",
    "addedOn": ""
   }
  ]
