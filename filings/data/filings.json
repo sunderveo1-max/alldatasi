@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-17T19:51:56+00:00",
- "newCount": 6,
- "newSummary": "NBIS SCHEDULE 13G/A, IREN SCHEDULE 13G, WULF SCHEDULE 13G/A, WULF SCHEDULE 13G/A, CORZ SCHEDULE 13G/A, HUT SCHEDULE 13G/A",
+ "generated": "2026-11-18T19:24:28+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -17,7 +17,7 @@
    "name": "Amazon",
    "group": "hyperscaler",
    "note": "AWS",
-   "insider30d": 3
+   "insider30d": 9
   },
   {
    "ticker": "GOOGL",
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 8
+   "insider30d": 20
   },
   {
    "ticker": "ORCL",
@@ -94,7 +94,7 @@
    "name": "Galaxy Digital",
    "group": "neocloud",
    "note": "Helios AI campus",
-   "insider30d": 4
+   "insider30d": 5
   },
   {
    "ticker": "HUT",
@@ -5285,33 +5285,6 @@
    "desc": "Beneficial ownership report (amendment)",
    "date": "2025-11-18",
    "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329225000660/xslSCHEDULE_13D_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-112928",
-   "ticker": "HUT",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-17",
-   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465925112928/hut-20251117x8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001315863-25-000816",
-   "ticker": "CORZ",
-   "form": "SCHEDULE 13D/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-11-17",
-   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000131586325000816/xslSCHEDULE_13D_X01/primary_doc.xml",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-112970",
-   "ticker": "AMZN",
-   "form": "424B5",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-11-17",
-   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925112970/tm2530638-1_424b5.htm",
    "addedOn": ""
   }
  ]
