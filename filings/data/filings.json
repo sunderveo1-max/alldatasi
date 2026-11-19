@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-18T19:24:28+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-11-19T19:30:01+00:00",
+ "newCount": 2,
+ "newSummary": "GOOGL 424B5, IREN SCHEDULE 13G",
  "failures": [],
  "companies": [
   {
@@ -38,7 +38,7 @@
    "name": "Oracle",
    "group": "hyperscaler",
    "note": "OCI",
-   "insider30d": 13
+   "insider30d": 4
   },
   {
    "ticker": "CRWV",
@@ -52,7 +52,7 @@
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 9
+   "insider30d": 8
   },
   {
    "ticker": "IREN",
@@ -66,14 +66,14 @@
    "name": "Applied Digital",
    "group": "neocloud",
    "note": "HPC data centers",
-   "insider30d": 7
+   "insider30d": 5
   },
   {
    "ticker": "CIFR",
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 2
+   "insider30d": 3
   },
   {
    "ticker": "WULF",
@@ -87,7 +87,7 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 6
+   "insider30d": 7
   },
   {
    "ticker": "GLXY",
@@ -112,6 +112,24 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001193125-26-467927",
+   "ticker": "GOOGL",
+   "form": "424B5",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526467927/d115240d424b5.htm",
+   "addedOn": "2026-11-19"
+  },
+  {
+   "id": "0001595888-26-000170",
+   "ticker": "IREN",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-11-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000159588826000170/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-19"
+  },
   {
    "id": "0000919574-26-008119",
    "ticker": "WULF",
@@ -5276,15 +5294,6 @@
    "desc": "Prospectus (securities offering)",
    "date": "2025-11-19",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925114098/tm2530638-4_424b5.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001123292-25-000660",
-   "ticker": "CIFR",
-   "form": "SCHEDULE 13D/A",
-   "desc": "Beneficial ownership report (amendment)",
-   "date": "2025-11-18",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000112329225000660/xslSCHEDULE_13D_X01/primary_doc.xml",
    "addedOn": ""
   }
  ]
