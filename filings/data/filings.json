@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-19T19:30:01+00:00",
- "newCount": 2,
- "newSummary": "GOOGL 424B5, IREN SCHEDULE 13G",
+ "generated": "2026-11-20T19:07:09+00:00",
+ "newCount": 1,
+ "newSummary": "IREN SCHEDULE 13G",
  "failures": [],
  "companies": [
   {
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 20
+   "insider30d": 23
   },
   {
    "ticker": "ORCL",
@@ -52,7 +52,7 @@
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 8
+   "insider30d": 7
   },
   {
    "ticker": "IREN",
@@ -87,7 +87,7 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 7
+   "insider30d": 5
   },
   {
    "ticker": "GLXY",
@@ -112,6 +112,15 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001104659-26-130230",
+   "ticker": "IREN",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-11-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000110465926130230/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-20"
+  },
   {
    "id": "0001193125-26-467927",
    "ticker": "GOOGL",
@@ -5276,24 +5285,6 @@
    "desc": "Current report",
    "date": "2025-11-20",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925114647/tm2530638d3_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-024319",
-   "ticker": "APLD",
-   "form": "424B3",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-11-19",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225024319/form424b3.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-114098",
-   "ticker": "AMZN",
-   "form": "424B5",
-   "desc": "Prospectus (securities offering)",
-   "date": "2025-11-19",
-   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925114098/tm2530638-4_424b5.htm",
    "addedOn": ""
   }
  ]
