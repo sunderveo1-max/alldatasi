@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-20T19:07:09+00:00",
- "newCount": 1,
- "newSummary": "IREN SCHEDULE 13G",
+ "generated": "2026-11-21T17:58:49+00:00",
+ "newCount": 2,
+ "newSummary": "ORCL 8-K, APLD SCHEDULE 13D/A",
  "failures": [],
  "companies": [
   {
@@ -17,7 +17,7 @@
    "name": "Amazon",
    "group": "hyperscaler",
    "note": "AWS",
-   "insider30d": 9
+   "insider30d": 10
   },
   {
    "ticker": "GOOGL",
@@ -31,14 +31,14 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 23
+   "insider30d": 22
   },
   {
    "ticker": "ORCL",
    "name": "Oracle",
    "group": "hyperscaler",
    "note": "OCI",
-   "insider30d": 4
+   "insider30d": 5
   },
   {
    "ticker": "CRWV",
@@ -66,7 +66,7 @@
    "name": "Applied Digital",
    "group": "neocloud",
    "note": "HPC data centers",
-   "insider30d": 5
+   "insider30d": 6
   },
   {
    "ticker": "CIFR",
@@ -94,7 +94,7 @@
    "name": "Galaxy Digital",
    "group": "neocloud",
    "note": "Helios AI campus",
-   "insider30d": 5
+   "insider30d": 8
   },
   {
    "ticker": "HUT",
@@ -112,6 +112,24 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001193125-26-470351",
+   "ticker": "ORCL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526470351/orcl-20261118.htm",
+   "addedOn": "2026-11-21"
+  },
+  {
+   "id": "0001493152-26-053589",
+   "ticker": "APLD",
+   "form": "SCHEDULE 13D/A",
+   "desc": "Beneficial ownership report (amendment)",
+   "date": "2026-11-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226053589/xslSCHEDULE_13D_X02/primary_doc.xml",
+   "addedOn": "2026-11-21"
+  },
   {
    "id": "0001104659-26-130230",
    "ticker": "IREN",
@@ -5258,33 +5276,6 @@
    "desc": "Current report",
    "date": "2025-11-21",
    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525291441/d43173d8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000950103-25-015073",
-   "ticker": "CIFR",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-20",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325015073/dp237633_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001493152-25-024479",
-   "ticker": "APLD",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-20",
-   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225024479/form8-k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001104659-25-114647",
-   "ticker": "AMZN",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-20",
-   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925114647/tm2530638d3_8k.htm",
    "addedOn": ""
   }
  ]
