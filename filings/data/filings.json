@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-21T17:58:49+00:00",
- "newCount": 2,
- "newSummary": "ORCL 8-K, APLD SCHEDULE 13D/A",
+ "generated": "2026-11-22T18:31:54+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 7
+   "insider30d": 5
   },
   {
    "ticker": "NBIS",
@@ -5267,15 +5267,6 @@
    "desc": "Current report",
    "date": "2025-11-24",
    "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325015181/dp237816_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001193125-25-291441",
-   "ticker": "ORCL",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-21",
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525291441/d43173d8k.htm",
    "addedOn": ""
   }
  ]
