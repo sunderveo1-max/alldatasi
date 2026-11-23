@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-22T18:31:54+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-11-23T22:40:01+00:00",
+ "newCount": 2,
+ "newSummary": "GOOGL 424B2, META 8-K",
  "failures": [],
  "companies": [
   {
@@ -112,6 +112,24 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001628280-26-075541",
+   "ticker": "META",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm",
+   "addedOn": "2026-11-23"
+  },
+  {
+   "id": "0001193125-26-470750",
+   "ticker": "GOOGL",
+   "form": "424B2",
+   "desc": "Prospectus (securities offering)",
+   "date": "2026-11-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526470750/d115240d424b2.htm",
+   "addedOn": "2026-11-23"
+  },
   {
    "id": "0001193125-26-470351",
    "ticker": "ORCL",
