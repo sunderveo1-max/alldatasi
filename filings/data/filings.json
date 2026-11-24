@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-23T22:40:01+00:00",
- "newCount": 2,
- "newSummary": "GOOGL 424B2, META 8-K",
+ "generated": "2026-11-24T21:13:23+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -24,7 +24,7 @@
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 9
+   "insider30d": 10
   },
   {
    "ticker": "META",
