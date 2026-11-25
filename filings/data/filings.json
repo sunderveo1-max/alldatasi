@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-24T21:13:23+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-11-25T20:28:51+00:00",
+ "newCount": 2,
+ "newSummary": "GOOGL 8-K, APLD 8-K",
  "failures": [],
  "companies": [
   {
@@ -17,7 +17,7 @@
    "name": "Amazon",
    "group": "hyperscaler",
    "note": "AWS",
-   "insider30d": 10
+   "insider30d": 16
   },
   {
    "ticker": "GOOGL",
@@ -45,7 +45,7 @@
    "name": "CoreWeave",
    "group": "neocloud",
    "note": "GPU cloud",
-   "insider30d": 5
+   "insider30d": 13
   },
   {
    "ticker": "NBIS",
@@ -112,6 +112,24 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001193125-26-475973",
+   "ticker": "GOOGL",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
+   "addedOn": "2026-11-25"
+  },
+  {
+   "id": "0001493152-26-054002",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226054002/form8-k.htm",
+   "addedOn": "2026-11-25"
+  },
   {
    "id": "0001628280-26-075541",
    "ticker": "META",
@@ -5267,24 +5285,6 @@
    "desc": "Current report",
    "date": "2025-11-25",
    "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330125000107/wulf-20251125.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001140361-25-043142",
-   "ticker": "IREN",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-24",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125043142/ef20059594_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0000950103-25-015181",
-   "ticker": "CIFR",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-24",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325015181/dp237816_8k.htm",
    "addedOn": ""
   }
  ]
