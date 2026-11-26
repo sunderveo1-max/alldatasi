@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-25T20:28:51+00:00",
- "newCount": 2,
- "newSummary": "GOOGL 8-K, APLD 8-K",
+ "generated": "2026-11-26T20:11:51+00:00",
+ "newCount": 0,
+ "newSummary": "",
  "failures": [],
  "companies": [
   {
@@ -31,7 +31,7 @@
    "name": "Meta Platforms",
    "group": "hyperscaler",
    "note": "AI capex",
-   "insider30d": 22
+   "insider30d": 23
   },
   {
    "ticker": "ORCL",
@@ -52,7 +52,7 @@
    "name": "Nebius Group",
    "group": "neocloud",
    "note": "GPU cloud, foreign filer (6-K)",
-   "insider30d": 7
+   "insider30d": 6
   },
   {
    "ticker": "IREN",
@@ -87,14 +87,14 @@
    "name": "Core Scientific",
    "group": "neocloud",
    "note": "HPC colocation",
-   "insider30d": 5
+   "insider30d": 6
   },
   {
    "ticker": "GLXY",
    "name": "Galaxy Digital",
    "group": "neocloud",
    "note": "Helios AI campus",
-   "insider30d": 8
+   "insider30d": 11
   },
   {
    "ticker": "HUT",
@@ -5276,15 +5276,6 @@
    "desc": "Current report",
    "date": "2025-11-28",
    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125043599/ef20060170_8k.htm",
-   "addedOn": ""
-  },
-  {
-   "id": "0001083301-25-000107",
-   "ticker": "WULF",
-   "form": "8-K",
-   "desc": "Current report",
-   "date": "2025-11-25",
-   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330125000107/wulf-20251125.htm",
    "addedOn": ""
   }
  ]
