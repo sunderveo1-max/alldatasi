@@ -1,8 +1,8 @@
 {
  "source": "edgar",
- "generated": "2026-11-26T20:11:51+00:00",
- "newCount": 0,
- "newSummary": "",
+ "generated": "2026-11-27T19:58:32+00:00",
+ "newCount": 2,
+ "newSummary": "APLD 8-K, WULF SCHEDULE 13G",
  "failures": [],
  "companies": [
   {
@@ -24,7 +24,7 @@
    "name": "Alphabet",
    "group": "hyperscaler",
    "note": "Google Cloud",
-   "insider30d": 10
+   "insider30d": 4
   },
   {
    "ticker": "META",
@@ -38,7 +38,7 @@
    "name": "Oracle",
    "group": "hyperscaler",
    "note": "OCI",
-   "insider30d": 5
+   "insider30d": 1
   },
   {
    "ticker": "CRWV",
@@ -73,7 +73,7 @@
    "name": "Cipher Mining",
    "group": "neocloud",
    "note": "HPC hosting",
-   "insider30d": 3
+   "insider30d": 2
   },
   {
    "ticker": "WULF",
@@ -112,6 +112,24 @@
   }
  ],
  "filings": [
+  {
+   "id": "0001595888-26-000172",
+   "ticker": "WULF",
+   "form": "SCHEDULE 13G",
+   "desc": "Beneficial ownership report",
+   "date": "2026-11-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000159588826000172/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "addedOn": "2026-11-27"
+  },
+  {
+   "id": "0001144879-26-000069",
+   "ticker": "APLD",
+   "form": "8-K",
+   "desc": "Current report",
+   "date": "2026-11-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000069/apld-20261125.htm",
+   "addedOn": "2026-11-27"
+  },
   {
    "id": "0001193125-26-475973",
    "ticker": "GOOGL",
